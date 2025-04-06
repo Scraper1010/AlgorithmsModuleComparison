@@ -1,0 +1,8 @@
+# Ignore the testing Python script
+threadevent.py
+
+
+# Other ignores
+__pycache__/
+*.pyc
+.env
