@@ -1,5 +1,6 @@
 # Ignore the testing Python script
 threadevent.py
+test.py
 
 
 # Other ignores
