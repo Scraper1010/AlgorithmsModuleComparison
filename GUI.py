@@ -71,7 +71,7 @@ class MainWindow(QMainWindow):
 
         self.combo2.model().item(0).setEnabled(False)
         
-        self.combo2.addItems(["bubble sort", "inseration sort", "exp sort"])
+        self.combo2.addItems(["Bubble sort", "Inseration sort", "Exp sort"])
         self.combo2.currentTextChanged.connect(self.update_label)
         self.combo1.setFont(QFont("Arial,30"))
         
