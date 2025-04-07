@@ -87,9 +87,10 @@ class Algorithms:
 
     #timer method
     
+
+
+
 num = 10000
-
-
 lst = [i for i in range((num)+1)]
 # rlst = [random.randint(1, (num)+1) for _ in range((num)+1)]
 
