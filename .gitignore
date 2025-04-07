@@ -10,4 +10,4 @@ test3.py
 __pycache__/
 *.pyc
 .env
-icon.png
+students_profiles.json

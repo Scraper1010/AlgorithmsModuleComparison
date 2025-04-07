@@ -15,7 +15,6 @@ class Algorithms:
         self.lst =lst
         self.value = value
         
-
     def LinearSearch(self): #easy as fuck  
         pass
 
@@ -23,25 +22,16 @@ class Algorithms:
         low = 0
         high = len(self.lst) -1
         steps = 0
-        
-
         while low <= high :
                 steps += 1
                 mid =(low + high) // 2
                 if self.lst[mid] == self.value:
-                    
                     return self.lst[mid] , mid,-1,'Binary search' , steps 
                 elif self.lst[mid] < self.value:
                     low = mid +1
                 else:
                     high = mid -1
-        return f'value : {self.value} not found in list' 
-        
-                
-                
-            
-        
-    
+        return f'value : {self.value} not found in list'
 
     def ExponentialSearch(self): #normal
         pass
@@ -60,7 +50,6 @@ class Algorithms:
                  self.iteration += 1
                  if self.lst[j] > self.lst[j+1]:
                      self.lst[j], self.lst[j+1] = self.lst[j+1], self.lst[j]
- 
          #stop the timer
          return self.lst , self.iteration #elapsed_time
 
@@ -78,13 +67,14 @@ class Algorithms:
 
 
 
-lst = [i for i in range((10)+1)]
+# lst = [i for i in range((10)+1)]
 
-print("lst is created")
+# print("lst is created")
 
 # value, index, elapsed_time, AlgorithmName, steps = Algorithms(lst, 11).BinarySearch()  # Updated method call and variable name
-print(Algorithms(lst, 11).BinarySearch())  # Updated method call and variable name
-# print(f"found value {value} in index {index} with elapsed time {elapsed_time} ms with {AlgorithmName} with {steps} steps")
+# print(Algorithms(lst, 11).BinarySearch())  # Updated method call and variable name
+# # print(f"found value {value} in index {index} with elapsed time {elapsed_time} ms with {AlgorithmName} with {steps} steps")
 
-del lst
-print("lst has been deleted")
+# del lst
+# print("lst has been deleted")
+
