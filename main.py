@@ -52,8 +52,17 @@ class Algorithms:
     def InterpolationSearch(self): #hard
         pass
     
-    def BubbleSort(self): #hard
-        pass
+    def BubbleSort(self): #hard #not for larg data set
+         #start the timer
+         for i in range(len(self.lst)-1):
+             self.iteration += 1
+             for j in range (len(self.lst)-i-1): # i here just to shrink the index cuz the every iteratoin will make the last element of index it the largest (just for efficiency)
+                 self.iteration += 1
+                 if self.lst[j] > self.lst[j+1]:
+                     self.lst[j], self.lst[j+1] = self.lst[j+1], self.lst[j]
+ 
+         #stop the timer
+         return self.lst , self.iteration #elapsed_time
 
     def InsertoinSort(self): #hard
         pass
