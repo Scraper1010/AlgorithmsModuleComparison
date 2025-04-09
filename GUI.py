@@ -88,6 +88,59 @@ class MainWindow(QMainWindow):
             }
         """)
 
+        
+        self.combo1 = QComboBox()
+        
+        self.combo1.addItem("Select an option...")  # Placeholder
+        self.combo1.setCurrentIndex(0)
+
+        self.combo1.model().item(0).setEnabled(False)
+
+    
+        self.combo1.addItems(["Binary search", "Quick sort", "Linear search"])
+        self.combo1.currentTextChanged.connect(self.update_label)
+        # self.combo1.currentTextChanged.connect(self.bin)
+        # self.combo1.setFont(QFont("Arial,50"))
+
+        
+        self.combo2 = QComboBox()
+        
+        
+        self.combo2.addItem("Select an option...")  # Placeholder
+        self.combo2.setCurrentIndex(0)
+
+        self.combo2.model().item(0).setEnabled(False)
+        
+        self.combo2.addItems(["Bubble sort", "Inseration sort", "Exp sort"])
+        self.combo2.currentTextChanged.connect(self.update_label)
+        self.combo1.setFont(QFont("Arial,30"))
+        
+        self.combo1.setStyleSheet("""
+        QWidget {
+                background-color: #FFFFFF;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;  
+                padding:4px 4px;
+                border:none;   
+            }
+        """)
+        font = QFont("Arial", 9)
+        font.setBold(True)
+        self.combo1.setFont(font)
+        self.combo2.setStyleSheet("""
+        QWidget {
+                background-color: #FFFFFF;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+                padding:4px 4px;
+
+            }
+        """)
+        font = QFont("Arial", 9)
+        font.setBold(True)
+        self.combo2.setFont(font)
         # Styling the central widget
         self.central_widget.setStyleSheet("""
             QWidget {

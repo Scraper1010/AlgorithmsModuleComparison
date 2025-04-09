@@ -86,7 +86,63 @@ class Algorithms:
         pass
 
     #timer method
-    
+    def __init__(self):
+        self.start_time = None
+        self.running_time = None
+        self.elapsed_time = 0
+        self.thread = None
+
+    def Timer_start(self) :
+        if self.start_time is None:
+            self.start_time = time.time()
+            self.running_time = True
+            self.thread = threading.Thread(target=self.update_timer)
+            self.thread.start()
+            print("Timer started")
+
+    def update_timer(self):
+        while self.running_time:
+            self.elapsed_time = time.time() - self.start_time
+            time.sleep(1)
+
+    def Timer_stop(self) :
+        if self.running_time:
+            self.running_time = False
+            self.thread.join()
+            print(f"Timer stopped.")
+            print(f"Elapsed: {int(self.elapsed_time)} sec {self.get_formatted_time()}")         
+
+    def reset_timer(self):
+        if self.running_time:
+            self.Tumer_stop()
+        self.start_time = None
+        self.running_time = False
+        self.elapsed_time = 0
+        self.thread = None
+        print("Timer reset.")
+            
+
+    def get_formatted_time (self):  
+        total_seconds = int(self.elapsed_time)
+        hours = total_seconds // 3600
+        minutes = (total_seconds % 3600) // 60
+        seconds = total_seconds % 60
+        return f"{hours:02}:{minutes:02}:{seconds:02}"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
