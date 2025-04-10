@@ -98,8 +98,26 @@ class Algorithms:
     def InsertoinSort(self):
         pass
 
-    def QuicKSort(self):
-        pass
+    def QuickSort(self):
+     self.iteration += 1
+     self.StartTimer()
+     if len(self.lst) <= 1:
+        self.StopTimer()
+        return self.lst.copy(), 1  # Return both list and iteration count
+    
+     pivot = self.lst[-1]
+     left = [x for x in self.lst[:-1] if x <= pivot]
+     right = [x for x in self.lst[:-1] if x > pivot]
+    
+     left_sorted, left_iter = Algorithms(left).QuickSort()
+     right_sorted, right_iter = Algorithms(right).QuickSort()
+    
+     total_iter = self.iteration + left_iter + right_iter
+     if len(lst) == len(self.lst):  
+        self.StopTimer()
+        return left_sorted + [pivot] + right_sorted, total_iter, self.elapsed_time.get()
+     else:
+        return left_sorted + [pivot] + right_sorted, total_iter
 
     def SelectionSort(self):
         for i in range(len(self.lst)):
@@ -141,7 +159,11 @@ rlst = [random.randint(1, (num)+1) for _ in range((num)+1)]
 print(Algorithms(rlst).SelectionSort())
 
 
-
+#QSM output:
+sorted_list, iterations,elapsed_time = Algorithms(lst).QuickSort()
+print("QSM  list:", sorted_list)
+print("QSM Iterations:", iterations)
+print(f"Time taken in QSM: {elapsed_time} ms")
 
 
 
