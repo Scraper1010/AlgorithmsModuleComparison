@@ -103,7 +103,14 @@ class Algorithms:
         pass
 
     def SelectionSort(self): #easy
-        pass
+        for i in range(len(self.lst)):
+            min_index = i
+            for j in range(i + 1, len(self.lst)):
+                self.iteration += 1
+                if self.lst[j] < self.lst[min_index]:
+                    min_index = j
+            self.lst[i], self.lst[min_index] = self.lst[min_index], self.lst[i]
+        return self.lst, self.iteration #elapsed_time
 
     #timer method
     
@@ -130,9 +137,9 @@ class Algorithms:
 
 
 
-num =10000000
+num =100
 lst = [i for i in range((num)+1)]
-# # rlst = [random.randint(1, (num)+1) for _ in range((num)+1)]
+rlst = [random.randint(1, (num)+1) for _ in range((num)+1)]
 
 
 # # print("lst is created")
@@ -143,14 +150,14 @@ lst = [i for i in range((num)+1)]
 # print("done")
 # lst=[1,2,3,4,5,6,7,8,9,10]
 
-value, index, elapsed_time, AlgorithmName, steps = Algorithms(lst, num).LinearSearch()  # Updated method call and variable name
-print(f"found value {value} in index {index} with elapsed time {elapsed_time} ms with {AlgorithmName} with {steps} steps")
-value, index, elapsed_time, AlgorithmName, steps = Algorithms(lst, num).BinarySearch()  # Updated method call and variable name
-print(f"found value {value} in index {index} with elapsed time {elapsed_time} ms with {AlgorithmName} with {steps} steps")
+# value, index, elapsed_time, AlgorithmName, steps = Algorithms(lst, num).LinearSearch()  # Updated method call and variable name
+# print(f"found value {value} in index {index} with elapsed time {elapsed_time} ms with {AlgorithmName} with {steps} steps")
+# value, index, elapsed_time, AlgorithmName, steps = Algorithms(lst, num).BinarySearch()  # Updated method call and variable name
+# print(f"found value {value} in index {index} with elapsed time {elapsed_time} ms with {AlgorithmName} with {steps} steps")
 # print(Algorithms(lst, 11).JumpSearch())
 # del lst
 # print("lst has been deleted")
-
+print(Algorithms(rlst).SelectionSort())
 
 
 
