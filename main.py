@@ -1,4 +1,4 @@
-import time, threading, queue, sys, os, random
+import time, threading, queue, sys, os, random, math
 from PyQt5.QtWidgets import (QLabel, QLayout, QPushButton, QLineEdit, QHBoxLayout, QVBoxLayout, QComboBox)
 from PyQt5.QtCore import Qt
 
@@ -39,10 +39,10 @@ class Algorithms:
             
         return -1  # Return -1 if the target is not found
 
-    def ExponentialSearch(self): #normal
+    def ExponentialSearch(self):
         pass
 
-    def BinarySearch(self): #easy as fuck
+    def BinarySearch(self):
         self.StartTimer()
         low = 0
         high = len(self.lst) -1
@@ -60,9 +60,8 @@ class Algorithms:
         
         return f'value : {self.value} not found in list'
     
-    def JumpSearch(self): #normal
-        
-        import math
+    def JumpSearch(self):
+    
         n = len(self.lst)
         step = int(math.sqrt(n))
         prev = 0
@@ -81,10 +80,10 @@ class Algorithms:
         return f"value : {self.value} not found"         
 
 
-    def InterpolationSearch(self): #hard
+    def InterpolationSearch(self): 
         pass
     
-    def BubbleSort(self): #hard #not for larg data set
+    def BubbleSort(self):
         #start the timer
         for i in range(len(self.lst)-1):
             self.iteration += 1
@@ -94,15 +93,15 @@ class Algorithms:
                     self.lst[j], self.lst[j+1] = self.lst[j+1], self.lst[j]
 
         #stop the timer
-        return self.lst , self.iteration #elapsed_time
+        return self.lst , self.iteration
 
-    def InsertoinSort(self): #hard
+    def InsertoinSort(self):
         pass
 
-    def QuicKSort(self): #more than hard
+    def QuicKSort(self):
         pass
 
-    def SelectionSort(self): #easy
+    def SelectionSort(self):
         for i in range(len(self.lst)):
             min_index = i
             for j in range(i + 1, len(self.lst)):
@@ -110,11 +109,7 @@ class Algorithms:
                 if self.lst[j] < self.lst[min_index]:
                     min_index = j
             self.lst[i], self.lst[min_index] = self.lst[min_index], self.lst[i]
-        return self.lst, self.iteration #elapsed_time
-
-    #timer method
-    
-    #test
+        return self.lst, self.iteration
 
 
     def StartTimer(self):
@@ -137,27 +132,21 @@ class Algorithms:
 
 
 
-num =100
+num =10000
 lst = [i for i in range((num)+1)]
 rlst = [random.randint(1, (num)+1) for _ in range((num)+1)]
 
 
-# # print("lst is created")
 
-# # lst , iteration = Algorithms(rlst).BubbleSort()
-# # print(f"lst : {lst}\niterations : {iteration}")
-
-# print("done")
-# lst=[1,2,3,4,5,6,7,8,9,10]
-
-# value, index, elapsed_time, AlgorithmName, steps = Algorithms(lst, num).LinearSearch()  # Updated method call and variable name
-# print(f"found value {value} in index {index} with elapsed time {elapsed_time} ms with {AlgorithmName} with {steps} steps")
-# value, index, elapsed_time, AlgorithmName, steps = Algorithms(lst, num).BinarySearch()  # Updated method call and variable name
-# print(f"found value {value} in index {index} with elapsed time {elapsed_time} ms with {AlgorithmName} with {steps} steps")
-# print(Algorithms(lst, 11).JumpSearch())
-# del lst
-# print("lst has been deleted")
 print(Algorithms(rlst).SelectionSort())
+
+
+
+
+
+
+
+del lst
 
 
 
