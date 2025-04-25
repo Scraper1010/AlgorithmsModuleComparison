@@ -1,9 +1,15 @@
-import sys
+import sys,os
 import random
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QLineEdit, QComboBox, QTextEdit, QSpinBox
 from PyQt5.QtGui import QFont, QPalette, QColor
 from PyQt5.QtCore import Qt
+from Algorithms import Algorithms
+
+SD = os.path.join(os.path.dirname(__file__))
+def clear():os.system('cls') if os.name == 'nt' else os.system('clear')
+new_SD = os.path.join(os.path.dirname(SD), 'dump')
+
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -142,7 +148,7 @@ class MainWindow(QMainWindow):
         # Dropdowns
         self.combo1 = QComboBox()
         self.combo1.addItem("Select an algorithm...")
-        self.combo1.addItems(["Binary search", "Quick sort", "Linear search", "Bubble sort", "Insertion sort", "Merge sort"])
+        self.combo1.addItems([method for method in dir(Algorithms) if callable(getattr(Algorithms, method)) and not method.startswith("_")])
         self.combo1.setStyleSheet("""
             QComboBox {
                 font-size: 16px;
@@ -175,7 +181,7 @@ class MainWindow(QMainWindow):
         
         self.combo2 = QComboBox()
         self.combo2.addItem("Select an algorithm...")
-        self.combo2.addItems(["Bubble sort", "Insertion sort", "Merge sort", "Quick sort", "Linear search", "Binary search"])
+        self.combo2.addItems([method for method in dir(Algorithms) if callable(getattr(Algorithms, method)) and not method.startswith("_")])
         self.combo2.setStyleSheet("""
             QComboBox {
                 font-size: 16px;
