@@ -12,18 +12,31 @@ new_SD = os.path.join(os.path.dirname(SD), 'dump')
 
 
 class Algorithms:
+    """A class implementing various searching and sorting algorithms with performance tracking."""
+    
     def __init__(self, lst=None, value=None):
-        self.lst = lst
+        """
+        Initialize the Algorithms class.
+        
+        Args:
+            lst (list, optional): Input list for algorithms. Defaults to None.
+            value (any, optional): Search value for search algorithms. Defaults to None.
+        """
+        # Core attributes
+        self.lst = lst.copy() if lst is not None else None  # Create a copy to prevent modifying original
         self.value = value
         self.steps = 0
         self.iteration = 0
-        self.temp = None
-
+        
+        # Performance tracking
+        self._setup_timer()
+    
+    def _setup_timer(self):
+        """Setup timing mechanism for performance measurement."""
         self.timer_event = threading.Event()
         self.timer_event.set()
         self.elapsed_time = queue.Queue()
-        self.timer_thread = threading.Thread(target=self.__run)
-
+        self.timer_thread = threading.Thread(target=self.__run, daemon=True)  # Make thread daemon
 
 
 
@@ -99,25 +112,72 @@ class Algorithms:
         pass
 
     def QuickSort(self):
-     self.iteration += 1
-     self.StartTimer()
-     if len(self.lst) <= 1:
-        self.StopTimer()
-        return self.lst.copy(), 1  # Return both list and iteration count
-    
-     pivot = self.lst[-1]
-     left = [x for x in self.lst[:-1] if x <= pivot]
-     right = [x for x in self.lst[:-1] if x > pivot]
-    
-     left_sorted, left_iter = Algorithms(left).QuickSort()
-     right_sorted, right_iter = Algorithms(right).QuickSort()
-    
-     total_iter = self.iteration + left_iter + right_iter
-     if len(lst) == len(self.lst):  
-        self.StopTimer()
-        return left_sorted + [pivot] + right_sorted, total_iter, self.elapsed_time.get()
-     else:
-        return left_sorted + [pivot] + right_sorted, total_iter
+        self.iteration += 1
+        self.StartTimer()
+        
+        def get_pivot(arr, low, high):
+            mid = (low + high) // 2
+            pivot = high
+            if arr[low] < arr[mid]:
+                if arr[mid] < arr[high]:
+                    pivot = mid
+            elif arr[low] < arr[high]:
+                pivot = low
+            return pivot
+
+        def partition(arr, low, high):
+            pivot_index = get_pivot(arr, low, high)
+            pivot_value = arr[pivot_index]
+            arr[pivot_index], arr[high] = arr[high], arr[pivot_index]
+            
+            store_index = low
+            for i in range(low, high):
+                if arr[i] <= pivot_value:
+                    arr[store_index], arr[i] = arr[i], arr[store_index]
+                    store_index += 1
+            arr[store_index], arr[high] = arr[high], arr[store_index]
+            return store_index
+
+        def quick_sort_helper(arr, low, high):
+            while low < high:
+                if high - low < 10:  # Use insertion sort for small arrays
+                    # Insertion sort
+                    for i in range(low + 1, high + 1):
+                        key = arr[i]
+                        j = i - 1
+                        while j >= low and arr[j] > key:
+                            arr[j + 1] = arr[j]
+                            j -= 1
+                        arr[j + 1] = key
+                    return 1
+                
+                pivot_index = partition(arr, low, high)
+                
+                # Recursively sort the smaller partition
+                if pivot_index - low < high - pivot_index:
+                    quick_sort_helper(arr, low, pivot_index - 1)
+                    low = pivot_index + 1  # Tail recursion optimization
+                else:
+                    quick_sort_helper(arr, pivot_index + 1, high)
+                    high = pivot_index - 1  # Tail recursion optimization
+            return 1
+
+        # Increase recursion limit as a safety measure
+        old_limit = sys.getrecursionlimit()
+        sys.setrecursionlimit(100000)
+        
+        try:
+            # Create a copy of the list to sort
+            arr = self.lst.copy()
+            total_iter = quick_sort_helper(arr, 0, len(arr) - 1)
+            self.iteration += total_iter
+            
+            # Stop the timer and return results
+            self.StopTimer()
+            return arr, self.iteration, self.elapsed_time.get()
+        finally:
+            # Restore the original recursion limit
+            sys.setrecursionlimit(old_limit)
 
     def SelectionSort(self):
         for i in range(len(self.lst)):
@@ -150,13 +210,13 @@ class Algorithms:
 
 
 
-num =10000
+num = 100  # Reduced from 10000 for testing
 lst = [i for i in range((num)+1)]
 rlst = [random.randint(1, (num)+1) for _ in range((num)+1)]
 
 
 
-print(Algorithms(rlst).SelectionSort())
+
 
 
 #QSM output:
