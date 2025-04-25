@@ -10,7 +10,6 @@ new_SD = os.path.join(os.path.dirname(SD), 'dump')
 
 
 
-
 class Algorithms:
     """A class implementing various searching and sorting algorithms with performance tracking."""
     
@@ -27,12 +26,7 @@ class Algorithms:
         self.value = value
         self.steps = 0
         self.iteration = 0
-        
-        # Performance tracking
-        self._setup_timer()
-    
-    def _setup_timer(self):
-        """Setup timing mechanism for performance measurement."""
+        self.temp = None
         self.timer_event = threading.Event()
         self.timer_event.set()
         self.elapsed_time = queue.Queue()
@@ -94,7 +88,21 @@ class Algorithms:
 
 
     def InterpolationSearch(self): 
-        pass
+        low = 0
+        high = len(self.lst) - 1
+        while low <= high and self.value >= self.lst[low] and self.value <= self.lst[high]:
+            self.steps += 1
+            pos = low + ((high - low) * (self.value - self.lst[low])) // (self.lst[high] - self.lst[low])
+            if pos >= len(self.lst):
+                break
+            if self.lst[pos] == self.value:
+                return pos, self.steps, self.value
+
+            elif self.lst[pos] < self.value:
+                low = pos + 1
+
+            else:
+                high = pos - 1
     
     def BubbleSort(self):
         #start the timer
@@ -217,20 +225,10 @@ rlst = [random.randint(1, (num)+1) for _ in range((num)+1)]
 
 
 
+print(Algorithms(lst=lst, value=100).BinarySearch())
 
-
-#QSM output:
-sorted_list, iterations,elapsed_time = Algorithms(lst).QuickSort()
-print("QSM  list:", sorted_list)
-print("QSM Iterations:", iterations)
-print(f"Time taken in QSM: {elapsed_time} ms")
 
 
 
 
 del lst
-
-
-
-
-
