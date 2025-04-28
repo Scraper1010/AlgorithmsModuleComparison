@@ -3,19 +3,18 @@ class Algorithms:
     
     def __init__(self, lst=None, value=None, debug=False):
 
-        self.__lst = lst.copy() if lst is not None else None
+        self.__lst = lst
         self.__value = value
         self.__steps = 0
         self.__iteration = 0
         self.__debug = debug
         if self.__debug == True:
-            self.__temp = None
             self.__timer_event = threading.Event()
             self.__timer_event.set()
             self.__elapsed_time = queue.Queue()
             self.__timer_thread = threading.Thread(target=self.__run, daemon=True)
+            
 
-    
     def LinearSearch(self) ->int:
         if self.__debug == True:
             self.__StartTimer()
@@ -29,45 +28,33 @@ class Algorithms:
                     return i
         raise _Error(f"value:{self.__value} not found in list")
 
-    def ExponentialSearch(self):
-            if self.__debug == True:
-                self.__StartTimer()
-
-            if len(self.__lst) == 0:
-                return "Empty list"
-
-            if self.__lst[0] == self.__value:
+    def InterpolationSearch(self):
+        if self.__debug == True:
+            self.__StartTimer()
+        if len(self.__lst) == 0:
+            raise _Error(f"value:{self.__value} not found in list")
+        
+        low = 0
+        high = len(self.__lst) - 1
+        
+        while low <= high and self.__value >= self.__lst[low] and self.__value <= self.__lst[high]:
+            self.__steps += 1
+            pos = low + ((high - low) // (self.__lst[high] - self.__lst[low])) * (self.__value - self.__lst[low])
+            
+            if self.__lst[pos] == self.__value:
                 if self.__debug == True:
                     self.__StopTimer()
-                    return self.__value, 0, self.__elapsed_time.get(), "ExponentialSearch", self.__steps
-                else:   
-                    return 0
-
-            index = 1
-            while index < len(self.__lst) and self.__lst[index] <= self.__value:
-                self.__steps += 1
-                index *= 2
-
-            low = index // 2
-            high = min(index, len(self.__lst) - 1)
-
-            while low <= high:
-                self.__steps += 1
-                mid = (low + high) // 2
-
-                if self.__lst[mid] == self.__value:
-                    if self.__debug == True:
-                        self.__StopTimer()
-                        return self.__value, mid, self.__elapsed_time.get(), "ExponentialSearch", self.__steps
-                    else:   
-                        return mid
-                    
-                elif self.__lst[mid] < self.__value:
-                    low = mid + 1
+                    return self.__lst[pos], pos, self.__elapsed_time.get(), self.InterpolationSearch.__name__, self.__steps
                 else:
-                    high = mid - 1
-
-            raise _Error(f"value:{self.__value} not found in list")
+                    return pos
+            
+            if self.__lst[pos] > self.__value:
+                high = pos - 1
+            
+            else:
+                low = pos + 1
+        
+        raise _Error(f"value:{self.__value} not found in list")
 
     def BinarySearch(self):
 
@@ -115,29 +102,8 @@ class Algorithms:
         raise _Error(f"value:{self.__value} not found in list")        
 
 
-    def InterpolationSearch(self): 
-        if self.__debug == True:
-            self.__StartTimer()
-        low = 0
-        high = len(self.__lst) - 1
-        while low <= high and self.__value >= self.__lst[low] and self.__value <= self.__lst[high]:
-            self.__steps += 1
-            pos = low + ((high - low) * (self.__value - self.__lst[low])) // (self.__lst[high] - self.__lst[low])
-            if pos >= len(self.__lst):
-                break
-            if self.__lst[pos] == self.__value:
-                if self.__debug == True:
-                    self.__StopTimer()
-                    return self.__lst[pos], pos, self.__elapsed_time.get(), self.InterpolationSearch.__name__, self.__steps
-                else:
-                    return pos
-            elif self.__lst[pos] < self.__value:
-                low = pos + 1
-            else:
-                high = pos - 1
-        raise _Error(f"value:{self.__value} not found in list")
 
-    
+
     
     def BubbleSort(self):
         if self.__debug == True:
