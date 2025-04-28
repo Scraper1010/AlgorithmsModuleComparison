@@ -8,7 +8,6 @@ class Algorithms:
         self.__steps = 0
         self.__iteration = 0
         self.__debug = debug
-        
         if self.__debug == True:
             self.__temp = None
             self.__timer_event = threading.Event()
@@ -17,7 +16,6 @@ class Algorithms:
             self.__timer_thread = threading.Thread(target=self.__run, daemon=True)
 
     
-
     def LinearSearch(self) ->int:
         if self.__debug == True:
             self.__StartTimer()
@@ -32,7 +30,44 @@ class Algorithms:
         raise _Error(f"value:{self.__value} not found in list")
 
     def ExponentialSearch(self):
-        pass
+            if self.__debug == True:
+                self.__StartTimer()
+
+            if len(self.__lst) == 0:
+                return "Empty list"
+
+            if self.__lst[0] == self.__value:
+                if self.__debug == True:
+                    self.__StopTimer()
+                    return self.__value, 0, self.__elapsed_time.get(), "ExponentialSearch", self.__steps
+                else:   
+                    return 0
+
+            index = 1
+            while index < len(self.__lst) and self.__lst[index] <= self.__value:
+                self.__steps += 1
+                index *= 2
+
+            low = index // 2
+            high = min(index, len(self.__lst) - 1)
+
+            while low <= high:
+                self.__steps += 1
+                mid = (low + high) // 2
+
+                if self.__lst[mid] == self.__value:
+                    if self.__debug == True:
+                        self.__StopTimer()
+                        return self.__value, mid, self.__elapsed_time.get(), "ExponentialSearch", self.__steps
+                    else:   
+                        return mid
+                    
+                elif self.__lst[mid] < self.__value:
+                    low = mid + 1
+                else:
+                    high = mid - 1
+
+            raise _Error(f"value:{self.__value} not found in list")
 
     def BinarySearch(self):
 
@@ -101,6 +136,8 @@ class Algorithms:
             else:
                 high = pos - 1
         raise _Error(f"value:{self.__value} not found in list")
+
+    
     
     def BubbleSort(self):
         if self.__debug == True:
@@ -217,6 +254,7 @@ class Algorithms:
             time.sleep((0.01)/10**10)
         elapsed_ms = float(f"{(time.time() - self.__start_time) * 1000:.3f}")
         self.__elapsed_time.put(elapsed_ms)
+
 
 
 

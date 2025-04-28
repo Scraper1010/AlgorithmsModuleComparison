@@ -1,12 +1,15 @@
 from Algorithms import Algorithms
 import random
 
-num = 100  # Reduced from 10000 for testing
+num = 200  # Reduced from 10000 for testing
 lst = [i for i in range((num)+1)]
 rlst = [random.randint(1, (num)+1) for _ in range((num)+1)]
 
+# print(Algorithms(lst=lst, value=200, debug=True).BinarySearch())
 
 
 # print(Algorithms(lst=lst, value=200, debug=True).LinearSearch())
-public_methods = [method for method in dir(Algorithms) if callable(getattr(Algorithms, method)) and not method.startswith("_")]
-print(public_methods)
+# public_methods = [method for method in dir(Algorithms) if callable(getattr(Algorithms, method)) and not method.startswith("_")]
+# print(public_methods)
+
+print(Algorithms(lst=lst, value=100, debug=False).ExponentialSearch())
