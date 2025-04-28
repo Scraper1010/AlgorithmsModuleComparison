@@ -63,7 +63,6 @@ class Algorithms:
         raise _Error(f"value:{self.__value} not found in list")
 
     def BinarySearch(self):
-
         if self.__debug == True:
             self.__StartTimer()
         low = 0
@@ -109,8 +108,6 @@ class Algorithms:
 
 
 
-
-    
     def BubbleSort(self):
         if self.__debug == True:
             self.__StartTimer()
@@ -125,8 +122,25 @@ class Algorithms:
             return result, self.__iteration, self.BubbleSort.__name__, self.__elapsed_time.get()
         return result
 
-    def InsertoinSort(self):
-        pass
+    def InsertionSort(self):
+        if self.__debug:
+            self.__StartTimer()
+
+        for i in range(1, len(self.__lst)):
+            self.__iteration += 1
+            key = self.__lst[i]
+            j = i - 1
+
+            while j >= 0 and self.__lst[j] > key:
+                self.__iteration += 1
+                self.__lst[j + 1] = self.__lst[j]  
+                j -= 1
+            self.__lst[j + 1] = key
+
+        if self.__debug:
+            self.__StopTimer()
+            return self.__lst, self.__elapsed_time.get(), self.InsertionSort.__name__, self.__iteration
+        return self.__lst
 
     def QuickSort(self):
         steps = 0
