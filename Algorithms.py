@@ -15,9 +15,14 @@ class Algorithms:
             self.__timer_thread = threading.Thread(target=self.__run, daemon=True)
             
 
-    def LinearSearch(self) ->int:
+    def LinearSearch(self):
+        """
+        Searches for the target in the data
+        Returns the index if found, or -raise _Error if not found
+        """
         if self.__debug == True:
             self.__StartTimer()
+
         for i in range(len(self.__lst)):
             self.__steps += 1
             if self.__lst[i] == self.__value:
@@ -27,6 +32,7 @@ class Algorithms:
                 else:
                     return i
         raise _Error(f"value:{self.__value} not found in list")
+
 
     def InterpolationSearch(self):
         if self.__debug == True:
