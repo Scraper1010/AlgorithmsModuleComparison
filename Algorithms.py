@@ -1,7 +1,7 @@
 import time, threading, queue, sys, os, random, math
 class Algorithms:
     
-    def __init__(self, lst=None, value=None, debug=False):
+    def __init__(self, lst, value, debug=False):
 
         self.__lst = lst
         self.__value = value
@@ -114,13 +114,14 @@ class Algorithms:
         result = self.__lst.copy()
         for i in range(len(result)-1):
             for j in range(len(result)-i-1): 
+                
                 self.__iteration += 1
                 if result[j] > result[j+1]:
                     result[j], result[j+1] = result[j+1], result[j]
         if self.__debug == True:
             self.__StopTimer()
             return result, self.__iteration, self.BubbleSort.__name__, self.__elapsed_time.get()
-        return result
+        return result[0:5],result[-6:-1]
 
     def InsertionSort(self):
         if self.__debug:
@@ -140,7 +141,7 @@ class Algorithms:
         if self.__debug:
             self.__StopTimer()
             return self.__lst, self.__elapsed_time.get(), self.InsertionSort.__name__, self.__iteration
-        return self.__lst
+        return self.__lst[0:5],self.__lst[-6:-1]
 
     def QuickSort(self):
         steps = 0
@@ -205,7 +206,7 @@ class Algorithms:
             if self.__debug == True:
                 self.__StopTimer()
                 return result, steps, self.QuickSort.__name__, self.__elapsed_time.get()
-            return result
+            return result[0:5],result[-6:-1]
         finally:
             sys.setrecursionlimit(old_limit)
 
@@ -223,7 +224,7 @@ class Algorithms:
         if self.__debug == True:
             self.__StopTimer()
             return result, self.__iteration, self.SelectionSort.__name__,self.__elapsed_time.get()
-        return result
+        return result[0:5],result[-6:-1]
 
 
     def __StartTimer(self):

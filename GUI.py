@@ -44,7 +44,7 @@ class MainWindow(QMainWindow):
         # Spin box for number of items
         self.items_spinbox = QSpinBox()
         self.items_spinbox.setRange(1, 1000000000)  # Up to 1 billion items
-        self.items_spinbox.setValue(10000)
+        self.items_spinbox.setValue(100)
         self.items_spinbox.setStyleSheet("""
             QSpinBox {
                 font-size: 14px;
@@ -273,7 +273,7 @@ class MainWindow(QMainWindow):
         button_layout.setAlignment(Qt.AlignCenter)  # Center button horizontally
         button_layout.addWidget(self.button)
         
-        # Adding all layouts to main layout
+        # Adding all layouts to the main layout
         main_layout.addLayout(input_layout)
         main_layout.addLayout(list_buttons_layout)
         main_layout.addWidget(self.label)
@@ -382,21 +382,36 @@ class MainWindow(QMainWindow):
         """Start the algorithm comparison"""
         algo1 = self.combo1.currentText()
         algo2 = self.combo2.currentText()
-        
+        al1=algo1
+        al2=algo2
+            
         if algo1 == "Select an algorithm..." or algo2 == "Select an algorithm...":
             self.output_text.append("Please select both algorithms to compare")
             return
-        
+        if "Search"  in algo1 and "Search"  in algo2 :
+            print(True)
+        elif "Sort" in algo1 and "Sort" in algo2:
+            print(False)
+        else:        
+            return self.output_text.append("please select a same type algorithm to compare")
+            
         try:
             input_text = int(self.items_spinbox.text())
+            split=str(input_text)
             if not input_text:
                 self.output_text.append("Please enter a list of numbers first")
                 return
-                
-            numbers = [int(x.strip()) for x in input_text.split(",")]
+            
+            numbers = [int(x.strip()) for x in split.split(",")]
             num_items = len(numbers)
             
             # Simulate algorithm execution (in a real app, you would implement the actual algorithms)
+            clas=Algorithms(self.current_list,5)
+            meths=getattr(clas,al1)
+            meths2=getattr(clas,al2)
+            l=meths
+            # self.output_text.append(f"{clas.BinarySearch()}")
+            
             self.output_text.append(f"\n--- Comparison Results ---")
             
             # Only show a summary of the list in the output
@@ -409,13 +424,19 @@ class MainWindow(QMainWindow):
                 self.output_text.append(f"Input list with {num_items} items")
                 self.output_text.append(f"First 5 items: {', '.join(map(str, first_five))}...")
                 self.output_text.append(f"Last 5 items: ...{', '.join(map(str, last_five))}")
-                
-            self.output_text.append(f"Algorithm 1 ({algo1}): Simulated execution time: {random.randint(10, 100)}ms")
-            self.output_text.append(f"Algorithm 2 ({algo2}): Simulated execution time: {random.randint(10, 100)}ms")
+            
+            if "Search" in algo1 and "Search" in algo2:
+                self.output_text.append(f"Algorithm 1 ({algo1}): finded the target: { meths()}, at the index: {self.current_list.index(meths()+1)} , at steps: {clas._Algorithms__steps} , Simulated execution time: {random.randint(10, 100)}ms")
+                self.output_text.append(f"Algorithm 2 ({algo2}): finded the target:{meths2()} ,at the index: {self.current_list.index(meths2()+1) }, at steps: {clas._Algorithms__steps} , Simulated execution time: {random.randint(10, 100)}ms")
+            elif "Sort" in algo1 and "Sort" in algo2:
+                self.output_text.append(f"Algorithm 1 ({algo1}): the sorted list F5 and L5: {meths()},Number of itreations is: {clas._Algorithms__iteration} ,Simulated execution time: {random.randint(10, 100)}ms")
+                self.output_text.append(f"Algorithm 2 ({algo2}): the sorted list F5 and L5: {meths2()},Number of itreations is: {clas._Algorithms__iteration} ,Simulated execution time: {random.randint(10, 100)}ms")
+                        
             self.output_text.append("--- End of Comparison ---\n")
             
         except ValueError:
             self.output_text.append("Invalid input. Please enter numbers separated by commas.")
+            
 
 def main():
     app = QApplication(sys.argv)
