@@ -2,7 +2,7 @@ import sys,os
 import random
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QLineEdit, QComboBox, QTextEdit, QSpinBox
-from PyQt5.QtGui import QFont, QPalette, QColor
+from PyQt5.QtGui import QFont, QPalette, QColor,QIcon
 from PyQt5.QtCore import Qt
 from Algorithms import Algorithms
 
@@ -17,7 +17,7 @@ class MainWindow(QMainWindow):
 
         self.setWindowTitle("Algorithm Comparison")
         self.setGeometry(100, 100, 1000, 800)
-
+        self.setWindowIcon(QIcon("icon.png"))
         # Set dark theme for the entire application
         self.set_dark_theme()
 
