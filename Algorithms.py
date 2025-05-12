@@ -280,7 +280,7 @@ class Algorithms:
                     result[j], result[j+1] = result[j+1], result[j]
         if self.__debug == True:
             self.__StopTimer()
-            return result, self.__iteration, self.BubbleSort.__name__, self.__elapsed_time.get()
+            return result, self.__elapsed_time.get(), self.BubbleSort.__name__, self.__iteration
         return result
 
     def InsertionSort(self):
@@ -382,7 +382,7 @@ class Algorithms:
             quick_sort_helper(result, 0, len(result) - 1)
             if self.__debug == True:
                 self.__StopTimer()
-                return result, steps, self.QuickSort.__name__, self.__elapsed_time.get()
+                return result, self.__elapsed_time.get(), self.QuickSort.__name__, steps
             return result
         finally:
             sys.setrecursionlimit(old_limit)
@@ -410,7 +410,7 @@ class Algorithms:
             result[i], result[min_index] = result[min_index], result[i]
         if self.__debug == True:
             self.__StopTimer()
-            return result, self.__iteration, self.SelectionSort.__name__,self.__elapsed_time.get()
+            return result, self.__elapsed_time.get(), self.SelectionSort.__name__,self.__iteration
         return result
 
 
@@ -458,3 +458,14 @@ class _Error(Exception):
 
 
 
+if __name__ == "__main__":
+    n = 10  
+    lst = list(range(n))
+    rlst = [random.randint(0, n) for _ in range(n)]
+    target = n-1
+    search =  Algorithms(lst=lst, target=target, debug=True).BinarySearch()
+    sort = Algorithms(lst=rlst, debug=True).BubbleSort()
+    print(f"""
+    search data : {search}
+    sort data : {sort}
+""")

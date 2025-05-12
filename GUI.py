@@ -383,7 +383,7 @@ class MainWindow(QMainWindow):
             result = algorithm_method()
             if isinstance(result, tuple):
                 if len(result) == 4:  # Sorting algorithm result
-                    sorted_list, iterations, name, elapsed_time = result
+                    sorted_list, elapsed_time, name, iterations = result
                     self.output_text.append(f"\n{algorithm_name} Results:")
                     self.output_text.append(f"Time taken: {elapsed_time:.3f} ms")
                     self.output_text.append(f"Number of iterations: {iterations}")
