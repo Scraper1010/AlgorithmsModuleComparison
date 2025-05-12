@@ -139,46 +139,52 @@ class Algorithms:
                 low = pos + 1
         
         raise _Error(f"value:{self.__value} not found in list")
+    
     def ExponentialSearch(self):
-        
+        """
+        Perform an exponential search on a sorted list.
+        This algorithm works by finding a range where the element is present, then doing binary search.
+        It's particularly useful for unbounded searches and when the element is near the beginning.
+
+        Returns:
+            If debug mode is False:
+                int: Index of the found value
+            If debug mode is True:
+                tuple: (value, index, elapsed_time_ms, algorithm_name, steps)
+
+        Raises:
+            _Error: If the value is not found in the list
+        """
+        if self.__debug == True:
+            self.__StartTimer()
+        if len(self.__lst) == 0:
+            return "Empty list"
+        if self.__lst[0] == self.__value:
             if self.__debug == True:
-                self.__StartTimer()
-
-            if len(self.__lst) == 0:
-                return "Empty list"
-
-            if self.__lst[0] == self.__value:
+                self.__StopTimer()
+                return self.__value, 0, self.__elapsed_time.get(), "ExponentialSearch", self.__steps
+            else:   
+                return 0
+        index = 1
+        while index < len(self.__lst) and self.__lst[index] <= self.__value:
+            self.__steps += 1
+            index *= 2
+        low = index // 2
+        high = min(index, len(self.__lst) - 1)
+        while low <= high:
+            self.__steps += 1
+            mid = (low + high) // 2
+            if self.__lst[mid] == self.__value:
                 if self.__debug == True:
                     self.__StopTimer()
-                    return self.__value, 0, self.__elapsed_time.get(), "ExponentialSearch", self.__steps
+                    return self.__value, mid, self.__elapsed_time.get(), "ExponentialSearch", self.__steps
                 else:   
-                    return 0
-
-            index = 1
-            while index < len(self.__lst) and self.__lst[index] <= self.__value:
-                self.__steps += 1
-                index *= 2
-
-            low = index // 2
-            high = min(index, len(self.__lst) - 1)
-
-            while low <= high:
-                self.__steps += 1
-                mid = (low + high) // 2
-
-                if self.__lst[mid] == self.__value:
-                    if self.__debug == True:
-                        self.__StopTimer()
-                        return self.__value, mid, self.__elapsed_time.get(), "ExponentialSearch", self.__steps
-                    else:   
-                        return mid
-                    
-                elif self.__lst[mid] < self.__value:
-                    low = mid + 1
-                else:
-                    high = mid - 1
-
-            raise _Error(f"value:{self.__value} not found in list")
+                    return mid  
+            elif self.__lst[mid] < self.__value:
+                low = mid + 1
+            else:
+                high = mid - 1
+        raise _Error(f"value:{self.__value} not found in list")
 
     def BinarySearch(self):
         """
