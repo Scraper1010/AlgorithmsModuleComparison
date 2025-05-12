@@ -12,3 +12,8 @@ __pycache__/
 .env
 icon.png
 students_profiles.json
+students_profiles_NOT_SORTED.json
+students_profiles_SORTED.json
+student_profiles.json
+search.py
+sort.py

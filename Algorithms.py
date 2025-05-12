@@ -1,10 +1,67 @@
+"""
+Algorithms Module for Search and Sort Operations
+
+This module provides a comprehensive implementation of various search and sorting algorithms
+with performance monitoring capabilities. It includes both basic and advanced algorithms
+for searching and sorting operations.
+
+Search Algorithms:
+    - Linear Search: O(n) time complexity, searches sequentially through the list
+    - Binary Search: O(log n) time complexity, requires sorted input
+    - Interpolation Search: O(log log n) average case, requires sorted input
+    - Jump Search: O(√n) time complexity, requires sorted input
+
+Sorting Algorithms:
+    - Bubble Sort: O(n²) time complexity, simple but inefficient
+    - Insertion Sort: O(n²) time complexity, efficient for small lists
+    - Quick Sort: O(n log n) average case, uses median-of-three pivot selection
+    - Selection Sort: O(n²) time complexity, performs well on small lists
+
+Features:
+    - Performance monitoring with step counting and timing
+    - Debug mode for detailed algorithm analysis
+    - Thread-safe timing mechanism
+    - Error handling for edge cases
+
+Usage:
+    >>> from Algorithms import Algorithms
+    >>> # Initialize with a list and search value
+    >>> algo = Algorithms(lst=[1, 2, 3, 4, 5], value=3)
+    >>> # Perform search operations
+    >>> result = algo.BinarySearch()
+    >>> # Perform sort operations
+    >>> sorted_list = algo.QuickSort()
+
+Note:
+    - Search algorithms return the index of the found value or raise an error if not found
+    - Sort algorithms return the first 5 and last 5 elements in non-debug mode
+    - Debug mode provides detailed performance metrics including execution time and steps
+"""
+
 import time, threading, queue, sys, os, random, math
 class Algorithms:
+    """
+    A class implementing various search and sorting algorithms with performance monitoring.
     
-    def __init__(self, lst, value, debug=False):
+    Attributes:
+        __lst (list): The input list to be searched or sorted
+        __value: The value to search for in search algorithms
+        __steps (int): Counter for algorithm steps
+        __iteration (int): Counter for sorting iterations
+        __debug (bool): Flag to enable/disable debug mode
+    """
+    
+    def __init__(self, lst=None, target=None, debug=False):
+        """
+        Initialize the Algorithms class.
 
+        Args:
+            lst (list): The input list to be searched or sorted
+            value: The value to search for in search algorithms
+            debug (bool, optional): Enable debug mode for performance monitoring. Defaults to False.
+        """
         self.__lst = lst
-        self.__value = value
+        self.__value = target
         self.__steps = 0
         self.__iteration = 0
         self.__debug = debug
@@ -17,8 +74,16 @@ class Algorithms:
 
     def LinearSearch(self):
         """
-        Searches for the target in the data
-        Returns the index if found, or -raise _Error if not found
+        Perform a linear search on the list.
+
+        Returns:
+            If debug mode is False:
+                int: Index of the found value
+            If debug mode is True:
+                tuple: (value, index, elapsed_time_ms, algorithm_name, steps)
+
+        Raises:
+            _Error: If the value is not found in the list
         """
         if self.__debug == True:
             self.__StartTimer()
@@ -35,6 +100,19 @@ class Algorithms:
 
 
     def InterpolationSearch(self):
+        """
+        Perform an interpolation search on a sorted list.
+        This algorithm works best on uniformly distributed sorted arrays.
+
+        Returns:
+            If debug mode is False:
+                int: Index of the found value
+            If debug mode is True:
+                tuple: (value, index, elapsed_time_ms, algorithm_name, steps)
+
+        Raises:
+            _Error: If the value is not found in the list or if the list is empty
+        """
         if self.__debug == True:
             self.__StartTimer()
         if len(self.__lst) == 0:
@@ -63,6 +141,19 @@ class Algorithms:
         raise _Error(f"value:{self.__value} not found in list")
 
     def BinarySearch(self):
+        """
+        Perform a binary search on a sorted list.
+        This algorithm requires the input list to be sorted.
+
+        Returns:
+            If debug mode is False:
+                int: Index of the found value
+            If debug mode is True:
+                tuple: (value, index, elapsed_time_ms, algorithm_name, steps)
+
+        Raises:
+            _Error: If the value is not found in the list
+        """
         if self.__debug == True:
             self.__StartTimer()
         low = 0
@@ -83,6 +174,19 @@ class Algorithms:
         raise _Error(f"value:{self.__value} not found in list")
     
     def JumpSearch(self):
+        """
+        Perform a jump search on a sorted list.
+        This algorithm works by jumping ahead by fixed steps and then performing linear search.
+
+        Returns:
+            If debug mode is False:
+                int: Index of the found value
+            If debug mode is True:
+                tuple: (value, index, elapsed_time_ms, algorithm_name, steps)
+
+        Raises:
+            _Error: If the value is not found in the list
+        """
         if self.__debug == True:
             self.__StartTimer()
         n = len(self.__lst)
@@ -109,6 +213,16 @@ class Algorithms:
 
 
     def BubbleSort(self):
+        """
+        Sort the list using bubble sort algorithm.
+        This is a simple but inefficient sorting algorithm.
+
+        Returns:
+            If debug mode is False:
+                list: The complete sorted list
+            If debug mode is True:
+                tuple: (sorted_list, iterations, algorithm_name, elapsed_time_ms)
+        """
         if self.__debug == True:
             self.__StartTimer()
         result = self.__lst.copy()
@@ -121,9 +235,19 @@ class Algorithms:
         if self.__debug == True:
             self.__StopTimer()
             return result, self.__iteration, self.BubbleSort.__name__, self.__elapsed_time.get()
-        return result[0:5],result[-6:-1]
+        return result
 
     def InsertionSort(self):
+        """
+        Sort the list using insertion sort algorithm.
+        This algorithm is efficient for small lists and nearly sorted lists.
+
+        Returns:
+            If debug mode is False:
+                list: The complete sorted list
+            If debug mode is True:
+                tuple: (sorted_list, elapsed_time_ms, algorithm_name, iterations)
+        """
         if self.__debug:
             self.__StartTimer()
 
@@ -141,9 +265,22 @@ class Algorithms:
         if self.__debug:
             self.__StopTimer()
             return self.__lst, self.__elapsed_time.get(), self.InsertionSort.__name__, self.__iteration
-        return self.__lst[0:5],self.__lst[-6:-1]
+        return self.__lst
 
     def QuickSort(self):
+        """
+        Sort the list using quick sort algorithm with median-of-three pivot selection.
+        This implementation includes optimization for small subarrays using insertion sort.
+
+        Returns:
+            If debug mode is False:
+                list: The complete sorted list
+            If debug mode is True:
+                tuple: (sorted_list, steps, algorithm_name, elapsed_time_ms)
+
+        Note:
+            Temporarily increases recursion limit to handle large lists
+        """
         steps = 0
         if self.__debug == True:
             self.__StartTimer()
@@ -206,11 +343,21 @@ class Algorithms:
             if self.__debug == True:
                 self.__StopTimer()
                 return result, steps, self.QuickSort.__name__, self.__elapsed_time.get()
-            return result[0:5],result[-6:-1]
+            return result
         finally:
             sys.setrecursionlimit(old_limit)
 
     def SelectionSort(self):
+        """
+        Sort the list using selection sort algorithm.
+        This algorithm performs well on small lists and has minimal memory usage.
+
+        Returns:
+            If debug mode is False:
+                tuple: (first_5_elements, last_5_elements)
+            If debug mode is True:
+                tuple: (sorted_list, iterations, algorithm_name, elapsed_time_ms)
+        """
         if self.__debug == True:
             self.__StartTimer()
         result = self.__lst.copy()
@@ -224,17 +371,29 @@ class Algorithms:
         if self.__debug == True:
             self.__StopTimer()
             return result, self.__iteration, self.SelectionSort.__name__,self.__elapsed_time.get()
-        return result[0:5],result[-6:-1]
+        return result
 
 
     def __StartTimer(self):
+        """
+        Start the performance timer in debug mode.
+        Initializes and starts the timer thread.
+        """
         self.__timer_thread.start()
 
     def __StopTimer(self):
+        """
+        Stop the performance timer in debug mode.
+        Clears the timer event and waits for the timer thread to complete.
+        """
         self.__timer_event.clear()
         self.__timer_thread.join()
 
     def __run(self):
+        """
+        Internal method for timer thread.
+        Measures elapsed time in milliseconds.
+        """
         self.__start_time = time.time()
     
         while self.__timer_event.is_set():
@@ -246,9 +405,15 @@ class Algorithms:
 
 
 class _Error(Exception):
-        def __init__(self, message):
-            self.message = message
-            super().__init__(self.message)
+    """
+    Custom exception class for algorithm-specific errors.
+    
+    Attributes:
+        message (str): Error message describing the failure
+    """
+    def __init__(self, message):
+        self.message = message
+        super().__init__(self.message)
 
 
 

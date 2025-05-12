@@ -361,7 +361,6 @@ class MainWindow(QMainWindow):
                 if num_items <= 20:
                     self.output_text.append("Created random arrangement: " + ", ".join(map(str, self.current_list)))
                 else:
-
                     first_five = self.current_list[:5]
                     last_five = self.current_list[-5:]
                     self.output_text.append(f"Created random arrangement with {num_items} items")
@@ -372,7 +371,6 @@ class MainWindow(QMainWindow):
 
         except ValueError:
             self.output_text.append("Invalid input. Please enter numbers separated by commas.")
-    
     def clear_screen(self):
         """Clear the output text area"""
         self.output_text.clear()
