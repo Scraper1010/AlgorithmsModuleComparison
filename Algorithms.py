@@ -284,7 +284,6 @@ class Algorithms:
         steps = 0
         if self.__debug == True:
             self.__StartTimer()
-        
         def get_pivot(arr, low, high):
             mid = (low + high) // 2
             pivot = high
@@ -294,13 +293,11 @@ class Algorithms:
             elif arr[low] < arr[high]:
                 pivot = low
             return pivot
-
         def partition(arr, low, high):
             nonlocal steps
             pivot_index = get_pivot(arr, low, high)
             pivot_value = arr[pivot_index]
             arr[pivot_index], arr[high] = arr[high], arr[pivot_index]
-            
             store_index = low
             for i in range(low, high):
                 steps += 1
@@ -309,7 +306,6 @@ class Algorithms:
                     store_index += 1
             arr[store_index], arr[high] = arr[high], arr[store_index]
             return store_index
-
         def quick_sort_helper(arr, low, high):
             while low < high:
                 if high - low < 10:  # Use insertion sort for small arrays
@@ -333,10 +329,8 @@ class Algorithms:
                 else:
                     quick_sort_helper(arr, pivot_index + 1, high)
                     high = pivot_index - 1 
-
         old_limit = sys.getrecursionlimit()
         sys.setrecursionlimit(100000)  # Increase recursion limit as a safety measure
-        
         try:
             result = self.__lst.copy()
             quick_sort_helper(result, 0, len(result) - 1)
@@ -417,9 +411,4 @@ class _Error(Exception):
 
 
 
-if __name__ == "__main__":
-    num = 10000
-    lst = [i for i in range((num)+1)]
-    rlst = [random.randint(1, (num)+1) for _ in range((num)+1)]
-    print(Algorithms(lst=rlst, value=100).QuickSort())
-    del rlst
+

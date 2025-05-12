@@ -1,0 +1,4279 @@
+[
+    {
+        "name": "Saif Nasser Mohamed Altity",
+        "gender": "male",
+        "id": 224100212,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Yassin Mohamed Salah Mohamed",
+        "gender": "male",
+        "id": 224102731,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Amr Amir Hamdy Hussien",
+        "gender": "male",
+        "id": 224103546,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Abdallah Amr Hassan Bossily",
+        "gender": "male",
+        "id": 224105917,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Youssef Anwar Badea Abdlsayd",
+        "gender": "male",
+        "id": 224107553,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Rashad Tariq Hassan Ibrahim",
+        "gender": "male",
+        "id": 224110133,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Amal Mona Tahani Tahani",
+        "gender": "female",
+        "id": 224110190,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Eslam Fathi Mostafa Hamdy",
+        "gender": "male",
+        "id": 224110208,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Bassem Farouk Abdelrahman Riad",
+        "gender": "male",
+        "id": 224110264,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Sherif Mohsen Tariq Mahmoud",
+        "gender": "male",
+        "id": 224110377,
+        "program": "COMPUTER SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Hamdy Maged Bassem Bashir",
+        "gender": "male",
+        "id": 224110507,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Abdelrahman Tamer Mohamed Awad",
+        "gender": "male",
+        "id": 224110775,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Huda Reem Rami Samiha",
+        "gender": "female",
+        "id": 224111091,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Rina Salma Dalia Nina",
+        "gender": "female",
+        "id": 224111154,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Yasmin Huda Mai Faten",
+        "gender": "female",
+        "id": 224111226,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Samah Khalida Sohair Nina",
+        "gender": "female",
+        "id": 224111517,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Samah Khalida Sohair Nina",
+        "gender": "female",
+        "id": 224111517,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Shereen Sumaia Rania Rana",
+        "gender": "female",
+        "id": 224111536,
+        "program": "COMPUTER SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Rina Reham Rina Abeer",
+        "gender": "female",
+        "id": 224111575,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Marwan Zaki Ramy Tamer",
+        "gender": "male",
+        "id": 224111667,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Sally Wafa Ghada Miriam",
+        "gender": "female",
+        "id": 224111738,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Mansour Tariq Khaled Fawzy",
+        "gender": "male",
+        "id": 224111843,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Mostafa Ibrahim Abdelaziz Ramy",
+        "gender": "male",
+        "id": 224112053,
+        "program": "COMPUTER ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Zaki Hamdy Zakaria Gamal",
+        "gender": "male",
+        "id": 224112149,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Lina Hend Mona Sumaya",
+        "gender": "female",
+        "id": 224112218,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Alya Kholoud Tahani Rami",
+        "gender": "female",
+        "id": 224112225,
+        "program": "COMPUTER ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Aya Leila Sahar Marwa",
+        "gender": "female",
+        "id": 224112456,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Khaled Aly Taha Tawfiq",
+        "gender": "male",
+        "id": 224112507,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 2
+    },
+    {
+        "name": "Farouk Nabil Essam Abdallah",
+        "gender": "male",
+        "id": 224112650,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 2
+    },
+    {
+        "name": "Nawal Rana Nadia Zaynab",
+        "gender": "female",
+        "id": 224112731,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Shady Nabil Fathi Taha",
+        "gender": "male",
+        "id": 224112984,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Sayed Said Bassem Ali",
+        "gender": "male",
+        "id": 224113042,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Sayed Said Bassem Ali",
+        "gender": "male",
+        "id": 224113042,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Mohamed Sayed Mahmoud Ali",
+        "gender": "male",
+        "id": 224113760,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Huda Shadia Khadija Laila",
+        "gender": "female",
+        "id": 224113943,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 2
+    },
+    {
+        "name": "Alya Nawal Reem Sherine",
+        "gender": "female",
+        "id": 224114100,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Sami Maher Essam Rami",
+        "gender": "male",
+        "id": 224114114,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Faten Zaynab Nawal Karima",
+        "gender": "female",
+        "id": 224114162,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Nadia Leila Farida Hend",
+        "gender": "female",
+        "id": 224114831,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Shady Saber Maher Samy",
+        "gender": "male",
+        "id": 224115110,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Fouad Ziad Mahmoud Rashad",
+        "gender": "male",
+        "id": 224115624,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Rami Kamal Tariq Zaki",
+        "gender": "male",
+        "id": 224115723,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Moustafa Emad Mouhamad Tamer",
+        "gender": "male",
+        "id": 224115739,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Mouhamad Badr Fathi Fouad",
+        "gender": "male",
+        "id": 224115922,
+        "program": "COMPUTER SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Kareem Shady Tawfiq Khaled",
+        "gender": "male",
+        "id": 224115945,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Rasha Nour Sana Miriam",
+        "gender": "female",
+        "id": 224115992,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Alya Reem Sania Sherine",
+        "gender": "female",
+        "id": 224116027,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Yasmin Ghada Rana Maha",
+        "gender": "female",
+        "id": 224116060,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Yasmine Fayza Jihan Zayna",
+        "gender": "female",
+        "id": 224116143,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Mahmoud Hamdy Fetouh Sakr",
+        "gender": "male",
+        "id": 224116481,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Emad Ahmed Elreai Salem",
+        "gender": "male",
+        "id": 224117045,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Khalida Alya Imane Amira",
+        "gender": "female",
+        "id": 224117099,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Nadine Noha Noha Rami",
+        "gender": "female",
+        "id": 224117157,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Amira Sonia Sana Reham",
+        "gender": "female",
+        "id": 224117342,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Dalia Tahani Nada Amal",
+        "gender": "female",
+        "id": 224117567,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Ibrahim Fathi Tawfiq Rashad",
+        "gender": "male",
+        "id": 224117904,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Reda Ayman Ahmed Fawzi",
+        "gender": "male",
+        "id": 224117917,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Nada Kholoud Nadine Layla",
+        "gender": "female",
+        "id": 224117971,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Marwan Hussein Marwan Tamer",
+        "gender": "male",
+        "id": 224118028,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Yasmine Sahar Farida Iman",
+        "gender": "female",
+        "id": 224118171,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Khalida Nawal Nour Amira",
+        "gender": "female",
+        "id": 224118241,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Imane Siham Amal Yasmine",
+        "gender": "female",
+        "id": 224118268,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Bashir Mansour Nabil Magdy",
+        "gender": "male",
+        "id": 224118324,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Zahra Amina Shadia Noha",
+        "gender": "female",
+        "id": 224118421,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Fady Riad Rashid Mazen",
+        "gender": "male",
+        "id": 224118432,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Dalal Fayza Mona Leila",
+        "gender": "female",
+        "id": 224118635,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Sarah Rasha Sumaya Samar",
+        "gender": "female",
+        "id": 224118811,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Anwar Laila Nina Salma",
+        "gender": "female",
+        "id": 224118852,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Mohamed Sherif Riad Gamal",
+        "gender": "male",
+        "id": 224118911,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Salah Ziad Ibrahim Gamal",
+        "gender": "male",
+        "id": 224119053,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Nada Maya Rami Dina",
+        "gender": "female",
+        "id": 224119087,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Gaber Marwan Fawzy Mounir",
+        "gender": "male",
+        "id": 224119367,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Samiha Fayza Tahani Yasmine",
+        "gender": "female",
+        "id": 224119368,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Ahmed Hatem Abdelghany Darder",
+        "gender": "male",
+        "id": 224119382,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Farouk Tariq Mahmoud Taha",
+        "gender": "male",
+        "id": 224119539,
+        "program": "COMPUTER ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Reda Magdy Tawfiq Hamdy",
+        "gender": "male",
+        "id": 224119569,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 4
+    },
+    {
+        "name": "Tahani Kholoud Sania Sumaya",
+        "gender": "female",
+        "id": 224119684,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Magdy Rashad Abdelrahman Fares",
+        "gender": "male",
+        "id": 224119986,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Ali Hassan Omar Maged",
+        "gender": "male",
+        "id": 224120125,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Farouk Tamer Mounir Ayman",
+        "gender": "male",
+        "id": 224120322,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Tariq Anwar Farouk Fawzi",
+        "gender": "male",
+        "id": 224120359,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Rana Sonia Amira Kareema",
+        "gender": "female",
+        "id": 224120370,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Hanan Mariam Khalida Marwa",
+        "gender": "female",
+        "id": 224120587,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Sania Shams Mai Siham",
+        "gender": "female",
+        "id": 224120740,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Farida Mai Tahani Mona",
+        "gender": "female",
+        "id": 224120780,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Wafa Abeer Sania Sania",
+        "gender": "female",
+        "id": 224120878,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Huda Samar Mona Samira",
+        "gender": "female",
+        "id": 224120911,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Salah Tamer Mazen Mostafa",
+        "gender": "male",
+        "id": 224121189,
+        "program": "COMPUTER SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Mostafa Hossam Sami Maged",
+        "gender": "male",
+        "id": 224121226,
+        "program": "COMPUTER SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Maged Reda Bassem Magdy",
+        "gender": "male",
+        "id": 224121799,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Siham Sohair Nadine Imane",
+        "gender": "female",
+        "id": 224121900,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Maged Moustafa Ramy Fady",
+        "gender": "male",
+        "id": 224122193,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Maged Sayed Aly Ali",
+        "gender": "male",
+        "id": 224122484,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Hala Dalia Sohair Raya",
+        "gender": "female",
+        "id": 224122493,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Fayza Maha Sana Reham",
+        "gender": "female",
+        "id": 224122666,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Reham Heba Amira Sahar",
+        "gender": "female",
+        "id": 224122740,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Nada Tala Nada Tala",
+        "gender": "female",
+        "id": 224122859,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Mahmoud Rami Sami Zakaria",
+        "gender": "male",
+        "id": 224122883,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Tariq Ali Fawzi Bassem",
+        "gender": "male",
+        "id": 224122951,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Fawzy Bashir Khaled Ziad",
+        "gender": "male",
+        "id": 224123027,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Maged Abdallah Gamal Mouhamad",
+        "gender": "male",
+        "id": 224123741,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Marwa Zainab Tahani Abeer",
+        "gender": "female",
+        "id": 224123966,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Mahmoud Said Mohamed Shady",
+        "gender": "male",
+        "id": 224124115,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Miriam Samah Sana Samiha",
+        "gender": "female",
+        "id": 224124262,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Fawzi Fares Abdelaziz Faris",
+        "gender": "male",
+        "id": 224124443,
+        "program": "COMPUTER SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Anwar Said Salah Sami",
+        "gender": "male",
+        "id": 224124468,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Shady Khaled Fady Khalil",
+        "gender": "male",
+        "id": 224124533,
+        "program": "COMPUTER ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Abdallah Ayman Marwan Bassem",
+        "gender": "male",
+        "id": 224124582,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Zeyad Esmat Mohamed Shehata",
+        "gender": "male",
+        "id": 224124656,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Bassem Hossam Bashir Amr",
+        "gender": "male",
+        "id": 224124954,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Eslam Anwar Saber Taha",
+        "gender": "male",
+        "id": 224125034,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Zainab Laila Yasmine Nawal",
+        "gender": "female",
+        "id": 224125109,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Rina Samiha Raya Sumaya",
+        "gender": "female",
+        "id": 224125184,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Mohamed Emad Mohamed Soliman",
+        "gender": "male",
+        "id": 224125304,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Zahra Siham Maya Rania",
+        "gender": "female",
+        "id": 224125523,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Abdelrahman Mouhamad Ayman Hany",
+        "gender": "male",
+        "id": 224125546,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Sohair Nadine Tala Dalal",
+        "gender": "female",
+        "id": 224125754,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Said Hossam Nabil Reda",
+        "gender": "male",
+        "id": 224125915,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Mostafa Mansour Tamer Omar",
+        "gender": "male",
+        "id": 224125967,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 4
+    },
+    {
+        "name": "Laila Sally Hanan Mariam",
+        "gender": "female",
+        "id": 224126016,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Badr Mansour Zaki Mohamed",
+        "gender": "male",
+        "id": 224126290,
+        "program": "COMPUTER ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Maha Aya Sherine Basma",
+        "gender": "female",
+        "id": 224126346,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Khaled Mouhamad Nasser Said",
+        "gender": "male",
+        "id": 224126696,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Abdelaziz Ziad Sayed Fathi",
+        "gender": "male",
+        "id": 224126830,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Sami Salah Kamal Emad",
+        "gender": "male",
+        "id": 224127116,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Maged Ibrahim Taha Mounir",
+        "gender": "male",
+        "id": 224127403,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Hany Zaky Mazen Hossam",
+        "gender": "male",
+        "id": 224127840,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Moustafa Hamdy Abdelaziz Saber",
+        "gender": "male",
+        "id": 224128084,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Hussein Nabil Ali Khalil",
+        "gender": "male",
+        "id": 224128184,
+        "program": "COMPUTER ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Mai Fayza Nadia Sonia",
+        "gender": "female",
+        "id": 224128576,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Mohammad Gamal Fawzi Rashad",
+        "gender": "male",
+        "id": 224128733,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Rania Rina Nina Shams",
+        "gender": "female",
+        "id": 224128781,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Mohammad Zaki Bashir Tamer",
+        "gender": "male",
+        "id": 224128814,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Tamer Ali Ramy Mahmoud",
+        "gender": "male",
+        "id": 224128843,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Rania Raya Shereen Maya",
+        "gender": "female",
+        "id": 224128877,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Sawsan Shereen Farah Heba",
+        "gender": "female",
+        "id": 224128954,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Ramy Nasser Khaled Moustafa",
+        "gender": "male",
+        "id": 224128981,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Zaky Samy Gaber Said",
+        "gender": "male",
+        "id": 224129162,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Zaki Hossam Farouk Ali",
+        "gender": "male",
+        "id": 224129360,
+        "program": "COMPUTER SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Ayman Tamer Ibrahim Emad",
+        "gender": "male",
+        "id": 224129388,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Mounir Rashid Essam Fathi",
+        "gender": "male",
+        "id": 224129543,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Yasmin Zaynab Salma Mona",
+        "gender": "female",
+        "id": 224130280,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Samar Rina Fatma Faten",
+        "gender": "female",
+        "id": 224130484,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Farouk Said Zaky Bashir",
+        "gender": "male",
+        "id": 224130555,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Maya Samar Dalal Sally",
+        "gender": "female",
+        "id": 224130772,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Abdallah Fouad Maher Khalil",
+        "gender": "male",
+        "id": 224130867,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Saber Sayed Faris Ramy",
+        "gender": "male",
+        "id": 224130908,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Mostafa Bassem Said Gamal",
+        "gender": "male",
+        "id": 224130926,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Wafa Rina Mariam Souad",
+        "gender": "female",
+        "id": 224131062,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Zaynab Amira Mona Anwar",
+        "gender": "female",
+        "id": 224131236,
+        "program": "COMPUTER ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Salah Badr Amr Ibrahim",
+        "gender": "male",
+        "id": 224131367,
+        "program": "COMPUTER SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Ramy Taha Sherif Hany",
+        "gender": "male",
+        "id": 224131500,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Shereen Riham Zaynab Miriam",
+        "gender": "female",
+        "id": 224131516,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 2
+    },
+    {
+        "name": "Marwa Rina Dalal Samiha",
+        "gender": "female",
+        "id": 224131601,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Kholoud Mai Sherine Yasmine",
+        "gender": "female",
+        "id": 224131646,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Faten Dalal Rina Sanaa",
+        "gender": "female",
+        "id": 224131855,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Amina Amira Samira Fatma",
+        "gender": "female",
+        "id": 224131892,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Imane Sumaya Samira Jihan",
+        "gender": "female",
+        "id": 224132022,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Essam Said Khaled Said",
+        "gender": "male",
+        "id": 224132081,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Raya Mona Hala Amira",
+        "gender": "female",
+        "id": 224132259,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Rasha Fayza Shadia Nadine",
+        "gender": "female",
+        "id": 224132802,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Omar Sami Riad Hossam",
+        "gender": "male",
+        "id": 224132980,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Amal Reham Hend Sonia",
+        "gender": "female",
+        "id": 224133070,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Dina Samira Sania Dalal",
+        "gender": "female",
+        "id": 224133117,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Kholoud Sherine Sohair Hend",
+        "gender": "female",
+        "id": 224133228,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Ramy Mohsen Essam Ahmed",
+        "gender": "male",
+        "id": 224133298,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Zeynab Layla Anwar Dina",
+        "gender": "female",
+        "id": 224133883,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Anwar Leila Shereen Nadia",
+        "gender": "female",
+        "id": 224134024,
+        "program": "COMPUTER ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Imane Samiha Sumaya Rania",
+        "gender": "female",
+        "id": 224134351,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 4
+    },
+    {
+        "name": "Zeynab Rami Khalida Souad",
+        "gender": "female",
+        "id": 224134442,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Said Farouk Hassan Nabil",
+        "gender": "male",
+        "id": 224134483,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Sonia Zahra Samira Nawal",
+        "gender": "female",
+        "id": 224134538,
+        "program": "COMPUTER SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Nadia Abeer Ghada Sohair",
+        "gender": "female",
+        "id": 224134607,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Samir Sami Hussein Nasser",
+        "gender": "male",
+        "id": 224134610,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Ayman Mohsen Samir Samir",
+        "gender": "male",
+        "id": 224134761,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Yasmine Zayna Farida Samira",
+        "gender": "female",
+        "id": 224134767,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Moustafa Samir Mohsen Sayed",
+        "gender": "male",
+        "id": 224135053,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Eman Laila Nada Amal",
+        "gender": "female",
+        "id": 224135212,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Kareem Tamer Fares Fouad",
+        "gender": "male",
+        "id": 224135304,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Maya Noha Samira Dalia",
+        "gender": "female",
+        "id": 224135306,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Basma Faten Dalia Alya",
+        "gender": "female",
+        "id": 224135585,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Omar Fouad Hossam Riad",
+        "gender": "male",
+        "id": 224135607,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Rashad Hamdy Mahmoud Sayed",
+        "gender": "male",
+        "id": 224135674,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Samiha Nina Alya Yasmine",
+        "gender": "female",
+        "id": 224135973,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Tariq Abdallah Taha Ehab",
+        "gender": "male",
+        "id": 224136011,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Rina Salma Alya Noha",
+        "gender": "female",
+        "id": 224136077,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Samiha Fatma Amal Sawsan",
+        "gender": "female",
+        "id": 224136121,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Aly Ibrahim Hamdy Mazen",
+        "gender": "male",
+        "id": 224136442,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Ashraf Essam Farouk Tariq",
+        "gender": "male",
+        "id": 224136464,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Mazen Ramy Mouhamad Emad",
+        "gender": "male",
+        "id": 224136656,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Reda Mohamed Tamer Tawfiq",
+        "gender": "male",
+        "id": 224136705,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Zeina Shereen Zahra Nadia",
+        "gender": "female",
+        "id": 224136828,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Gamal Bashir Sherif Faris",
+        "gender": "male",
+        "id": 224136891,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Nada Nadia Mai Shereen",
+        "gender": "female",
+        "id": 224137236,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Aly Emad Fares Hamdy",
+        "gender": "male",
+        "id": 224137456,
+        "program": "COMPUTER SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Miriam Layla Mai Sawsan",
+        "gender": "female",
+        "id": 224137485,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Tahani Hend Noha Sania",
+        "gender": "female",
+        "id": 224137819,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 2
+    },
+    {
+        "name": "Jihan Sohair Sanaa Yasmin",
+        "gender": "female",
+        "id": 224137979,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Dina Farida Khalida Sonia",
+        "gender": "female",
+        "id": 224138239,
+        "program": "COMPUTER ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Fawzy Emad Hassan Ziad",
+        "gender": "male",
+        "id": 224138306,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Imane Iman Eman Layla",
+        "gender": "female",
+        "id": 224138394,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Nawal Sahar Imane Nadine",
+        "gender": "female",
+        "id": 224138537,
+        "program": "COMPUTER SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Nawal Sahar Imane Nadine",
+        "gender": "female",
+        "id": 224138537,
+        "program": "COMPUTER SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Mai Lina Hala Nawal",
+        "gender": "female",
+        "id": 224138683,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Amal Nawal Hala Sumaia",
+        "gender": "female",
+        "id": 224138768,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Rana Zeynab Lina Salma",
+        "gender": "female",
+        "id": 224138855,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Reem Rasha Mai Rami",
+        "gender": "female",
+        "id": 224138932,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Shady Sayed Badr Taha",
+        "gender": "male",
+        "id": 224139006,
+        "program": "COMPUTER SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Taha Samy Hassan Kareem",
+        "gender": "male",
+        "id": 224139030,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Marwa Miriam Sana Sawsan",
+        "gender": "female",
+        "id": 224139371,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Zainab Basma Farida Miriam",
+        "gender": "female",
+        "id": 224139430,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Dalal Rasha Sumaya Anwar",
+        "gender": "female",
+        "id": 224139560,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Ali Zaky Zakaria Abdelrahman",
+        "gender": "male",
+        "id": 224139592,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Ramy Anwar Omar Fares",
+        "gender": "male",
+        "id": 224139635,
+        "program": "COMPUTER SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Hend Huda Khadija Rana",
+        "gender": "female",
+        "id": 224139750,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Dalal Laila Abeer Rina",
+        "gender": "female",
+        "id": 224140076,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Ahmed Abdallah Mohamed Magdy",
+        "gender": "male",
+        "id": 224140090,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Nada Mariam Nina Dina",
+        "gender": "female",
+        "id": 224140202,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Miriam Dalia Sanaa Zahra",
+        "gender": "female",
+        "id": 224140420,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Yasmine Fayza Rasha Laila",
+        "gender": "female",
+        "id": 224140640,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Shady Mouhamad Sayed Fawzy",
+        "gender": "male",
+        "id": 224140832,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Aya Sahar Tala Sanaa",
+        "gender": "female",
+        "id": 224140855,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Fady Said Mouhamad Aly",
+        "gender": "male",
+        "id": 224140945,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Fouad Abdelaziz Mouhamad Mouhamad",
+        "gender": "male",
+        "id": 224140995,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Said Gaber Abdelrahman Hossam",
+        "gender": "male",
+        "id": 224141066,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Eslam Nasser Marwan Hussein",
+        "gender": "male",
+        "id": 224141118,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Fawzi Kamal Bashir Bashir",
+        "gender": "male",
+        "id": 224141234,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Samah Yasmine Alya Sonia",
+        "gender": "female",
+        "id": 224141252,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 2
+    },
+    {
+        "name": "Khaled Zaki Khaled Ibrahim",
+        "gender": "male",
+        "id": 224141438,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Nour Nour Sherine Dalia",
+        "gender": "female",
+        "id": 224141508,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Farah Reem Basma Khadija",
+        "gender": "female",
+        "id": 224141601,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Noha Tahani Salma Nada",
+        "gender": "female",
+        "id": 224141691,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Zakaria Said Rashid Nasser",
+        "gender": "male",
+        "id": 224141977,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Maha Yasmine Ghada Imane",
+        "gender": "female",
+        "id": 224141978,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Mazen Mohamed Mohammad Ayman",
+        "gender": "male",
+        "id": 224142010,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Sonia Faten Amal Farida",
+        "gender": "female",
+        "id": 224142204,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Mounir Farouk Omar Rashad",
+        "gender": "male",
+        "id": 224142281,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 4
+    },
+    {
+        "name": "Shams Imane Kholoud Dina",
+        "gender": "female",
+        "id": 224142519,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Farouk Hassan Hossam Sami",
+        "gender": "male",
+        "id": 224142734,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Ghada Jihan Tala Sawsan",
+        "gender": "female",
+        "id": 224142843,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 4
+    },
+    {
+        "name": "Mai Sarah Nadia Farida",
+        "gender": "female",
+        "id": 224143055,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 4
+    },
+    {
+        "name": "Sonia Zayna Huda Basma",
+        "gender": "female",
+        "id": 224143302,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Amira Kholoud Zayna Dina",
+        "gender": "female",
+        "id": 224143384,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Karima Hanan Riham Sawsan",
+        "gender": "female",
+        "id": 224143503,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Mohammad Zaky Ali Moustafa",
+        "gender": "male",
+        "id": 224143551,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Ayman Ayman Ahmed Sherif",
+        "gender": "male",
+        "id": 224143564,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Ehab Kamal Tamer Hossam",
+        "gender": "male",
+        "id": 224143565,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Hossam Ashraf Eslam Gamal",
+        "gender": "male",
+        "id": 224143769,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 4
+    },
+    {
+        "name": "Gamal Said Samir Hussein",
+        "gender": "male",
+        "id": 224143903,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Maha Nadine Sawsan Fayza",
+        "gender": "female",
+        "id": 224143986,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Fayza Faten Tahani Aya",
+        "gender": "female",
+        "id": 224144110,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Rashid Zakaria Eslam Hassan",
+        "gender": "male",
+        "id": 224144443,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Alya Lina Dalia Zeynab",
+        "gender": "female",
+        "id": 224144619,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Shereen Karima Abeer Zeina",
+        "gender": "female",
+        "id": 224144714,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Faten Samiha Anwar Fatma",
+        "gender": "female",
+        "id": 224145042,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Jihan Nina Sana Heba",
+        "gender": "female",
+        "id": 224145372,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Hala Rana Hend Abeer",
+        "gender": "female",
+        "id": 224145374,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Kareem Essam Tawfiq Ashraf",
+        "gender": "male",
+        "id": 224145909,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Khalil Samy Magdy Shady",
+        "gender": "male",
+        "id": 224145913,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Yasmine Sumaia Sherine Abeer",
+        "gender": "female",
+        "id": 224146107,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Sumaya Laila Samira Kholoud",
+        "gender": "female",
+        "id": 224146170,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Maha Layla Layla Farah",
+        "gender": "female",
+        "id": 224146201,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Essam Mohamed Rashid Mostafa",
+        "gender": "male",
+        "id": 224146234,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Wafa Samah Reham Yasmin",
+        "gender": "female",
+        "id": 224146282,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Ramy Maher Nabil Abdallah",
+        "gender": "male",
+        "id": 224146533,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Samira Mai Fatma Jihan",
+        "gender": "female",
+        "id": 224146607,
+        "program": "COMPUTER ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Ghada Nawal Eman Karima",
+        "gender": "female",
+        "id": 224147104,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Farouk Abdelrahman Fawzi Mounir",
+        "gender": "male",
+        "id": 224147137,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 4
+    },
+    {
+        "name": "Mona Nina Jihan Nawal",
+        "gender": "female",
+        "id": 224147279,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Miriam Dalal Sumaya Samar",
+        "gender": "female",
+        "id": 224147367,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Rasha Yasmin Amal Alya",
+        "gender": "female",
+        "id": 224147427,
+        "program": "COMPUTER SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Taha Rashid Eslam Ibrahim",
+        "gender": "male",
+        "id": 224147455,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Dina Hend Laila Sarah",
+        "gender": "female",
+        "id": 224147759,
+        "program": "COMPUTER SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Nadia Zainab Samiha Sonia",
+        "gender": "female",
+        "id": 224147928,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Marwan Hussein Emad Nasser",
+        "gender": "male",
+        "id": 224148106,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Rashad Tawfiq Moustafa Mazen",
+        "gender": "male",
+        "id": 224148185,
+        "program": "COMPUTER SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Nina Sahar Maya Leila",
+        "gender": "female",
+        "id": 224148228,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Badr Khalil Emad Zaki",
+        "gender": "male",
+        "id": 224148265,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Zayna Sania Nawal Salma",
+        "gender": "female",
+        "id": 224148684,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Fares Tawfiq Marwan Anwar",
+        "gender": "male",
+        "id": 224148746,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Kareema Sarah Dina Samah",
+        "gender": "female",
+        "id": 224148767,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Mohamed Samir Fawzi Kamal",
+        "gender": "male",
+        "id": 224148924,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 2
+    },
+    {
+        "name": "Zeina Eman Sahar Sohair",
+        "gender": "female",
+        "id": 224149048,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Moustafa Taha Ali Rashid",
+        "gender": "male",
+        "id": 224149111,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Alya Mariam Dina Salma",
+        "gender": "female",
+        "id": 224149266,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Sami Ibrahim Ali Zaki",
+        "gender": "male",
+        "id": 224149402,
+        "program": "COMPUTER SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Nadine Basma Sonia Farah",
+        "gender": "female",
+        "id": 224149418,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Sania Zaynab Sally Zainab",
+        "gender": "female",
+        "id": 224149524,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 2
+    },
+    {
+        "name": "Zahra Dalia Sonia Dalal",
+        "gender": "female",
+        "id": 224149753,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Farah Hanan Yasmin Nawal",
+        "gender": "female",
+        "id": 224149776,
+        "program": "COMPUTER ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Nina Anwar Farah Abeer",
+        "gender": "female",
+        "id": 224149831,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Sohair Amina Kareema Sally",
+        "gender": "female",
+        "id": 224150096,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Said Abdelaziz Fares Abdelaziz",
+        "gender": "male",
+        "id": 224150108,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Karima Heba Rana Kareema",
+        "gender": "female",
+        "id": 224150241,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Rana Fayza Shereen Zeynab",
+        "gender": "female",
+        "id": 224150841,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Reem Zeina Mai Rania",
+        "gender": "female",
+        "id": 224151140,
+        "program": "COMPUTER SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Rashid Taha Mohamed Shady",
+        "gender": "male",
+        "id": 224151373,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Mouhamad Hany Hamdy Hussein",
+        "gender": "male",
+        "id": 224151445,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Zainab Abeer Maha Mai",
+        "gender": "female",
+        "id": 224151628,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Amr Ayman Sami Mouhamad",
+        "gender": "male",
+        "id": 224151655,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Zaki Mansour Rami Sherif",
+        "gender": "male",
+        "id": 224151754,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Miriam Sohair Kholoud Sawsan",
+        "gender": "female",
+        "id": 224151816,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Faris Mazen Zaki Fares",
+        "gender": "male",
+        "id": 224152114,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Rami Mohamed Badr Sami",
+        "gender": "male",
+        "id": 224152240,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Ghada Layla Siham Yasmine",
+        "gender": "female",
+        "id": 224152257,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Kareema Sumaya Ghada Aya",
+        "gender": "female",
+        "id": 224152749,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Ziad Emad Aly Moustafa",
+        "gender": "male",
+        "id": 224153322,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Abdallah Gamal Fares Gamal",
+        "gender": "male",
+        "id": 224153487,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Hassan Sherif Tariq Fathi",
+        "gender": "male",
+        "id": 224153511,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Sherif Emad Mounir Shady",
+        "gender": "male",
+        "id": 224153556,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 2
+    },
+    {
+        "name": "Kareem Fouad Nabil Nabil",
+        "gender": "male",
+        "id": 224153640,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Ramy Zaki Ahmed Mostafa",
+        "gender": "male",
+        "id": 224154072,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Zaki Fouad Marwan Said",
+        "gender": "male",
+        "id": 224154134,
+        "program": "COMPUTER SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Dalia Miriam Raya Heba",
+        "gender": "female",
+        "id": 224154279,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Ahmed Rashad Mohsen Maher",
+        "gender": "male",
+        "id": 224154286,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Samira Zayna Amira Zaynab",
+        "gender": "female",
+        "id": 224154417,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Sally Wafa Khalida Samiha",
+        "gender": "female",
+        "id": 224154806,
+        "program": "COMPUTER SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Khadija Khadija Sherine Zahra",
+        "gender": "female",
+        "id": 224154979,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Ehab Khalil Maged Shady",
+        "gender": "male",
+        "id": 224155083,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 2
+    },
+    {
+        "name": "Aly Omar Ayman Hossam",
+        "gender": "male",
+        "id": 224155193,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Mohsen Kareem Aly Maher",
+        "gender": "male",
+        "id": 224155423,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 2
+    },
+    {
+        "name": "Hamdy Bassem Zaki Omar",
+        "gender": "male",
+        "id": 224155535,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Ibrahim Zaki Mounir Anwar",
+        "gender": "male",
+        "id": 224155695,
+        "program": "COMPUTER ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Hala Sherine Ghada Salma",
+        "gender": "female",
+        "id": 224155705,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 4
+    },
+    {
+        "name": "Kareem Ali Bashir Badr",
+        "gender": "male",
+        "id": 224155899,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Noha Hend Samira Huda",
+        "gender": "female",
+        "id": 224156190,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Sana Sawsan Dalal Abeer",
+        "gender": "female",
+        "id": 224156952,
+        "program": "COMPUTER SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Mounir Kamal Mazen Hamdy",
+        "gender": "male",
+        "id": 224157079,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Tamer Samy Fathi Fathi",
+        "gender": "male",
+        "id": 224157842,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Bashir Tawfiq Ehab Emad",
+        "gender": "male",
+        "id": 224157871,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Zakaria Abdallah Shady Hassan",
+        "gender": "male",
+        "id": 224158115,
+        "program": "COMPUTER SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Amr Saber Bashir Ramy",
+        "gender": "male",
+        "id": 224158326,
+        "program": "COMPUTER ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Badr Khaled Tawfiq Eslam",
+        "gender": "male",
+        "id": 224158329,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Samar Laila Ghada Alya",
+        "gender": "female",
+        "id": 224158541,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Samira Heba Amal Anwar",
+        "gender": "female",
+        "id": 224158662,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Bashir Abdelrahman Mostafa Magdy",
+        "gender": "male",
+        "id": 224158688,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Sayed Rashid Mohamed Mahmoud",
+        "gender": "male",
+        "id": 224158933,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Fares Rami Fawzi Sami",
+        "gender": "male",
+        "id": 224158951,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Mansour Samir Farouk Mohamed",
+        "gender": "male",
+        "id": 224159053,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Maher Zaky Essam Fady",
+        "gender": "male",
+        "id": 224159380,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Reda Rami Magdy Sami",
+        "gender": "male",
+        "id": 224159513,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Samiha Siham Raya Sonia",
+        "gender": "female",
+        "id": 224159533,
+        "program": "COMPUTER SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Samiha Sumaia Nadia Dalia",
+        "gender": "female",
+        "id": 224159797,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Zahra Jihan Khalida Reham",
+        "gender": "female",
+        "id": 224160018,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Zaki Mostafa Rashad Fares",
+        "gender": "male",
+        "id": 224160095,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Tahani Hend Nadine Sawsan",
+        "gender": "female",
+        "id": 224160511,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Said Abdelaziz Reda Ehab",
+        "gender": "male",
+        "id": 224160664,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Rami Mona Sherine Nour",
+        "gender": "female",
+        "id": 224160876,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Abdelaziz Rashad Mohsen Fawzi",
+        "gender": "male",
+        "id": 224160929,
+        "program": "COMPUTER SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Reem Laila Sohair Heba",
+        "gender": "female",
+        "id": 224161256,
+        "program": "COMPUTER ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Fares Tawfiq Ibrahim Fady",
+        "gender": "male",
+        "id": 224161282,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Ziad Ayman Mansour Hany",
+        "gender": "male",
+        "id": 224161640,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Mouhamad Rashid Reda Mounir",
+        "gender": "male",
+        "id": 224161789,
+        "program": "COMPUTER SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Yasmin Nadine Sherine Mai",
+        "gender": "female",
+        "id": 224161924,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Nina Dina Kareema Sahar",
+        "gender": "female",
+        "id": 224161958,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Kholoud Reham Raya Zeynab",
+        "gender": "female",
+        "id": 224162028,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Abeer Zahra Hend Abeer",
+        "gender": "female",
+        "id": 224162075,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Ghada Sawsan Raya Samiha",
+        "gender": "female",
+        "id": 224162200,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Mohammad Salah Fares Khaled",
+        "gender": "male",
+        "id": 224162302,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Sami Mahmoud Badr Mahmoud",
+        "gender": "male",
+        "id": 224162396,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Rashid Sherif Badr Bashir",
+        "gender": "male",
+        "id": 224162648,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Raya Mai Shereen Kholoud",
+        "gender": "female",
+        "id": 224162738,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Ibrahim Mounir Badr Fouad",
+        "gender": "male",
+        "id": 224162747,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Abdelrahman Sami Samy Amr",
+        "gender": "male",
+        "id": 224162778,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Magdy Fawzi Maher Mohsen",
+        "gender": "male",
+        "id": 224162904,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Samir Magdy Bashir Eslam",
+        "gender": "male",
+        "id": 224162911,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Salah Mohsen Sherif Amr",
+        "gender": "male",
+        "id": 224162954,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Eslam Mohammad Ibrahim Gaber",
+        "gender": "male",
+        "id": 224163224,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Mohammad Mouhamad Badr Kamal",
+        "gender": "male",
+        "id": 224163418,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Reham Samira Salma Nawal",
+        "gender": "female",
+        "id": 224163546,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Emad Ehab Zaky Shady",
+        "gender": "male",
+        "id": 224163550,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Amr Saber Ahmed Samy",
+        "gender": "male",
+        "id": 224163757,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Faris Khaled Kareem Mohamed",
+        "gender": "male",
+        "id": 224163878,
+        "program": "COMPUTER SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Sarah Leila Samar Zahra",
+        "gender": "female",
+        "id": 224164306,
+        "program": "COMPUTER ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Imane Nawal Samiha Farida",
+        "gender": "female",
+        "id": 224164369,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Laila Zainab Sana Zayna",
+        "gender": "female",
+        "id": 224164396,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Sami Ehab Rami Mohsen",
+        "gender": "male",
+        "id": 224164480,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Kareema Basma Laila Leila",
+        "gender": "female",
+        "id": 224164940,
+        "program": "COMPUTER ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Mouhamad Rashid Eslam Essam",
+        "gender": "male",
+        "id": 224164953,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Said Shady Reda Hossam",
+        "gender": "male",
+        "id": 224165368,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Farah Sana Lina Eman",
+        "gender": "female",
+        "id": 224165609,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Hanan Reem Salma Farida",
+        "gender": "female",
+        "id": 224165803,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Samira Rami Zaynab Hala",
+        "gender": "female",
+        "id": 224165943,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 2
+    },
+    {
+        "name": "Mounir Tamer Mostafa Abdelrahman",
+        "gender": "male",
+        "id": 224166031,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Aly Bashir Gaber Ibrahim",
+        "gender": "male",
+        "id": 224166277,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Omar Tamer Abdelaziz Zakaria",
+        "gender": "male",
+        "id": 224166347,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Laila Dalia Mona Aya",
+        "gender": "female",
+        "id": 224166441,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Souad Khadija Hanan Hend",
+        "gender": "female",
+        "id": 224166539,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Farouk Rami Marwan Anwar",
+        "gender": "male",
+        "id": 224166553,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 4
+    },
+    {
+        "name": "Fouad Ayman Gaber Mounir",
+        "gender": "male",
+        "id": 224166690,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Sania Zeynab Shams Alya",
+        "gender": "female",
+        "id": 224166732,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Zakaria Emad Rashid Nasser",
+        "gender": "male",
+        "id": 224166808,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Kareema Eman Farah Nadia",
+        "gender": "female",
+        "id": 224167238,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Mahmoud Moustafa Badr Ibrahim",
+        "gender": "male",
+        "id": 224167386,
+        "program": "COMPUTER SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Nada Huda Rina Reham",
+        "gender": "female",
+        "id": 224167474,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 4
+    },
+    {
+        "name": "Emad Mouhamad Eslam Said",
+        "gender": "male",
+        "id": 224167475,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Fouad Fathi Sayed Hamdy",
+        "gender": "male",
+        "id": 224167587,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Eman Maya Salma Nadine",
+        "gender": "female",
+        "id": 224167689,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Dalia Fatma Sania Mai",
+        "gender": "female",
+        "id": 224167756,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Samy Nasser Ramy Khaled",
+        "gender": "male",
+        "id": 224168144,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Taha Ayman Ayman Omar",
+        "gender": "male",
+        "id": 224168226,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Rami Rana Dalia Zeynab",
+        "gender": "female",
+        "id": 224168404,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Marwan Emad Samy Eslam",
+        "gender": "male",
+        "id": 224168560,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Aly Riad Shady Rami",
+        "gender": "male",
+        "id": 224168658,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Ibrahim Mohsen Fares Hussein",
+        "gender": "male",
+        "id": 224168957,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Dina Ghada Farah Souad",
+        "gender": "female",
+        "id": 224168977,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Salah Tamer Mohsen Mohamed",
+        "gender": "male",
+        "id": 224169219,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Noha Sania Hend Sana",
+        "gender": "female",
+        "id": 224169248,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Abeer Nadia Rami Abeer",
+        "gender": "female",
+        "id": 224169285,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Jihan Laila Nada Sarah",
+        "gender": "female",
+        "id": 224169365,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Mouhamad Kamal Abdallah Hossam",
+        "gender": "male",
+        "id": 224169625,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Faris Riad Emad Fawzy",
+        "gender": "male",
+        "id": 224169861,
+        "program": "COMPUTER SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Magdy Mohsen Riad Tariq",
+        "gender": "male",
+        "id": 224169904,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Miriam Khadija Karima Kholoud",
+        "gender": "female",
+        "id": 224169957,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Taha Abdallah Ahmed Zakaria",
+        "gender": "male",
+        "id": 224169985,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Khalil Kareem Khaled Ehab",
+        "gender": "male",
+        "id": 224170062,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Rania Nour Samar Nadia",
+        "gender": "female",
+        "id": 224170148,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Ramy Faris Tamer Ehab",
+        "gender": "male",
+        "id": 224170524,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Ziad Mohammad Farouk Rashid",
+        "gender": "male",
+        "id": 224171202,
+        "program": "COMPUTER ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Raya Faten Dina Khalida",
+        "gender": "female",
+        "id": 224171516,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Zeynab Huda Wafa Sanaa",
+        "gender": "female",
+        "id": 224171630,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Sahar Amina Sally Jihan",
+        "gender": "female",
+        "id": 224172019,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Maher Rashid Hussein Amr",
+        "gender": "male",
+        "id": 224172112,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Bashir Mansour Fawzi Maher",
+        "gender": "male",
+        "id": 224172467,
+        "program": "COMPUTER SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Shady Mounir Hamdy Saber",
+        "gender": "male",
+        "id": 224172513,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Zainab Sana Zainab Kholoud",
+        "gender": "female",
+        "id": 224172699,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Khadija Zayna Nada Leila",
+        "gender": "female",
+        "id": 224172750,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Huda Shereen Nour Sally",
+        "gender": "female",
+        "id": 224172797,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 2
+    },
+    {
+        "name": "Fawzy Emad Fouad Salah",
+        "gender": "male",
+        "id": 224172930,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Sally Fatma Aya Fayza",
+        "gender": "female",
+        "id": 224173011,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Nina Samira Sania Rami",
+        "gender": "female",
+        "id": 224173077,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Farah Abeer Sumaia Dalia",
+        "gender": "female",
+        "id": 224173144,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Nina Imane Huda Aya",
+        "gender": "female",
+        "id": 224173168,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Nabil Mounir Maher Mazen",
+        "gender": "male",
+        "id": 224173852,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Heba Rasha Mariam Maha",
+        "gender": "female",
+        "id": 224174013,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Khaled Hamdy Reda Zaky",
+        "gender": "male",
+        "id": 224174091,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Zeynab Kholoud Samiha Zaynab",
+        "gender": "female",
+        "id": 224174336,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Fatma Sanaa Imane Amina",
+        "gender": "female",
+        "id": 224174504,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Hend Raya Samah Yasmin",
+        "gender": "female",
+        "id": 224174516,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Eman Raya Sanaa Noha",
+        "gender": "female",
+        "id": 224174630,
+        "program": "COMPUTER ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Zakaria Nabil Rashad Kareem",
+        "gender": "male",
+        "id": 224174792,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Ayman Faris Abdelrahman Gaber",
+        "gender": "male",
+        "id": 224174821,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Ziad Nabil Mouhamad Sami",
+        "gender": "male",
+        "id": 224174830,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Hossam Ramy Gaber Mounir",
+        "gender": "male",
+        "id": 224174866,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 4
+    },
+    {
+        "name": "Maya Mona Nadia Fatma",
+        "gender": "female",
+        "id": 224175015,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Maher Abdelaziz Ali Gamal",
+        "gender": "male",
+        "id": 224175019,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Zaynab Samah Alya Amina",
+        "gender": "female",
+        "id": 224175098,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Sherif Khaled Hany Moustafa",
+        "gender": "male",
+        "id": 224175321,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Rina Shadia Farida Rina",
+        "gender": "female",
+        "id": 224175955,
+        "program": "COMPUTER ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Lina Zahra Riham Fatma",
+        "gender": "female",
+        "id": 224176016,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Zaki Hamdy Anwar Mohsen",
+        "gender": "male",
+        "id": 224176550,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Souad Raya Leila Kareema",
+        "gender": "female",
+        "id": 224176580,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Hossam Mohsen Saber Fouad",
+        "gender": "male",
+        "id": 224176654,
+        "program": "COMPUTER SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Fathi Sayed Salah Saber",
+        "gender": "male",
+        "id": 224176785,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Tamer Mohamed Marwan Shady",
+        "gender": "male",
+        "id": 224177097,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Ibrahim Ibrahim Zaki Magdy",
+        "gender": "male",
+        "id": 224177210,
+        "program": "COMPUTER SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Mohamed Hany Ibrahim Tamer",
+        "gender": "male",
+        "id": 224177394,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Ayman Hamdy Saber Mazen",
+        "gender": "male",
+        "id": 224177468,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 2
+    },
+    {
+        "name": "Wafa Aya Shereen Huda",
+        "gender": "female",
+        "id": 224177501,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Wafa Aya Shereen Huda",
+        "gender": "female",
+        "id": 224177501,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Salah Amr Mansour Reda",
+        "gender": "male",
+        "id": 224177503,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Kamal Fawzy Mostafa Bashir",
+        "gender": "male",
+        "id": 224177523,
+        "program": "COMPUTER ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Mohamed Said Sami Mohammad",
+        "gender": "male",
+        "id": 224177540,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Nadine Samah Shadia Sawsan",
+        "gender": "female",
+        "id": 224177546,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Farouk Abdelaziz Ashraf Mohammad",
+        "gender": "male",
+        "id": 224177663,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Maged Tamer Abdallah Ramy",
+        "gender": "male",
+        "id": 224177817,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Mohammad Riad Hossam Nabil",
+        "gender": "male",
+        "id": 224177840,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Farah Sanaa Marwa Yasmin",
+        "gender": "female",
+        "id": 224177846,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Rana Rana Nina Sumaya",
+        "gender": "female",
+        "id": 224178204,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Farouk Said Mohsen Tawfiq",
+        "gender": "male",
+        "id": 224178246,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Jihan Mona Reem Samah",
+        "gender": "female",
+        "id": 224178321,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 2
+    },
+    {
+        "name": "Emad Shady Ziad Shady",
+        "gender": "male",
+        "id": 224178389,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Fathi Ibrahim Anwar Sami",
+        "gender": "male",
+        "id": 224178543,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Marwa Rami Mai Siham",
+        "gender": "female",
+        "id": 224178727,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Miriam Rami Souad Ghada",
+        "gender": "female",
+        "id": 224178732,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Sahar Tala Sarah Marwa",
+        "gender": "female",
+        "id": 224179184,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Miriam Amal Sarah Rasha",
+        "gender": "female",
+        "id": 224179234,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Mohamed Zakaria Sherif Sayed",
+        "gender": "male",
+        "id": 224179287,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 2
+    },
+    {
+        "name": "Sanaa Noha Rana Mona",
+        "gender": "female",
+        "id": 224179396,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Rami Hany Said Badr",
+        "gender": "male",
+        "id": 224179417,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Taha Fouad Emad Zaky",
+        "gender": "male",
+        "id": 224179678,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 4
+    },
+    {
+        "name": "Layla Anwar Shereen Rasha",
+        "gender": "female",
+        "id": 224179937,
+        "program": "COMPUTER SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Gaber Mahmoud Farouk Mahmoud",
+        "gender": "male",
+        "id": 224180044,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Kamal Omar Tariq Mansour",
+        "gender": "male",
+        "id": 224180242,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Zayna Zaynab Nour Shereen",
+        "gender": "female",
+        "id": 224180396,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Khalida Tahani Laila Riham",
+        "gender": "female",
+        "id": 224180478,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Moustafa Mostafa Rashid Faris",
+        "gender": "male",
+        "id": 224180540,
+        "program": "COMPUTER SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Moustafa Rami Ziad Abdelaziz",
+        "gender": "male",
+        "id": 224180578,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Mounir Tamer Marwan Fady",
+        "gender": "male",
+        "id": 224180627,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Abdallah Nasser Sami Gamal",
+        "gender": "male",
+        "id": 224180662,
+        "program": "COMPUTER SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Mouhamad Rashid Kareem Hassan",
+        "gender": "male",
+        "id": 224180775,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Alya Layla Tahani Sana",
+        "gender": "female",
+        "id": 224181047,
+        "program": "COMPUTER SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Ashraf Badr Maher Mohsen",
+        "gender": "male",
+        "id": 224181211,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Mohammad Faris Fawzi Mounir",
+        "gender": "male",
+        "id": 224181649,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Reham Rania Dina Kareema",
+        "gender": "female",
+        "id": 224181749,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Ashraf Hamdy Abdelaziz Rashid",
+        "gender": "male",
+        "id": 224181941,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Samar Fayza Rasha Fayza",
+        "gender": "female",
+        "id": 224182181,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Nour Basma Samiha Rasha",
+        "gender": "female",
+        "id": 224182503,
+        "program": "COMPUTER SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Nour Kholoud Zahra Sania",
+        "gender": "female",
+        "id": 224182677,
+        "program": "COMPUTER ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Aly Tamer Badr Faris",
+        "gender": "male",
+        "id": 224182776,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Maged Ashraf Ashraf Reda",
+        "gender": "male",
+        "id": 224182859,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 4
+    },
+    {
+        "name": "Khadija Eman Iman Rina",
+        "gender": "female",
+        "id": 224183248,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Zaki Fouad Rami Emad",
+        "gender": "male",
+        "id": 224183294,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Rasha Dalal Anwar Laila",
+        "gender": "female",
+        "id": 224183683,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Samar Aya Amina Fayza",
+        "gender": "female",
+        "id": 224184015,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Gaber Abdelrahman Nabil Abdelrahman",
+        "gender": "male",
+        "id": 224184705,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Farouk Zaki Fathi Hussein",
+        "gender": "male",
+        "id": 224184707,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Hend Iman Nadine Reem",
+        "gender": "female",
+        "id": 224184718,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Mazen Shady Sayed Taha",
+        "gender": "male",
+        "id": 224185469,
+        "program": "COMPUTER ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Faris Ziad Magdy Mounir",
+        "gender": "male",
+        "id": 224185849,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Miriam Sania Dalia Shams",
+        "gender": "female",
+        "id": 224185949,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Leila Laila Sania Farida",
+        "gender": "female",
+        "id": 224186137,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Eman Leila Sonia Rasha",
+        "gender": "female",
+        "id": 224186196,
+        "program": "COMPUTER ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Saber Hany Hamdy Riad",
+        "gender": "male",
+        "id": 224186423,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Tamer Ziad Gaber Rashad",
+        "gender": "male",
+        "id": 224186954,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Farah Iman Amina Samira",
+        "gender": "female",
+        "id": 224186996,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Amira Reham Imane Sumaya",
+        "gender": "female",
+        "id": 224187111,
+        "program": "COMPUTER SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Rashid Mostafa Mouhamad Maher",
+        "gender": "male",
+        "id": 224187200,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Sania Ghada Sohair Raya",
+        "gender": "female",
+        "id": 224187310,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Hanan Ghada Mai Leila",
+        "gender": "female",
+        "id": 224187619,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Fady Fawzy Fawzy Ayman",
+        "gender": "male",
+        "id": 224187669,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Kareem Mansour Abdelrahman Hussein",
+        "gender": "male",
+        "id": 224187755,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Hany Mohammad Fouad Abdallah",
+        "gender": "male",
+        "id": 224187982,
+        "program": "COMPUTER SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Basma Imane Huda Sumaya",
+        "gender": "female",
+        "id": 224188147,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Nawal Hala Noha Lina",
+        "gender": "female",
+        "id": 224188345,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Raya Farah Huda Sarah",
+        "gender": "female",
+        "id": 224188354,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Nadine Laila Fayza Riham",
+        "gender": "female",
+        "id": 224188367,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Zayna Maha Lina Rana",
+        "gender": "female",
+        "id": 224188582,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Khalida Dalal Mona Dina",
+        "gender": "female",
+        "id": 224188603,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Bashir Samir Mohammad Mohsen",
+        "gender": "male",
+        "id": 224188663,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Noha Yasmine Jihan Anwar",
+        "gender": "female",
+        "id": 224188678,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Hala Fatma Dalal Sonia",
+        "gender": "female",
+        "id": 224188809,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Marwa Siham Siham Layla",
+        "gender": "female",
+        "id": 224188850,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Tamer Samir Hamdy Fawzy",
+        "gender": "male",
+        "id": 224188895,
+        "program": "COMPUTER ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Mohamed Zaky Ashraf Ayman",
+        "gender": "male",
+        "id": 224189153,
+        "program": "COMPUTER SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Mariam Reham Fatma Nadia",
+        "gender": "female",
+        "id": 224189323,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Bassem Maher Farouk Abdallah",
+        "gender": "male",
+        "id": 224189482,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Nina Kareema Farida Rana",
+        "gender": "female",
+        "id": 224189598,
+        "program": "COMPUTER SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Bashir Mostafa Said Tariq",
+        "gender": "male",
+        "id": 224189733,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Samy Mounir Abdelrahman Tamer",
+        "gender": "male",
+        "id": 224190061,
+        "program": "COMPUTER ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Mazen Eslam Bassem Zaki",
+        "gender": "male",
+        "id": 224190155,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Salma Sahar Rami Zeynab",
+        "gender": "female",
+        "id": 224190470,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Zaki Mansour Samir Fawzy",
+        "gender": "male",
+        "id": 224190473,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 2
+    },
+    {
+        "name": "Dina Aya Anwar Sonia",
+        "gender": "female",
+        "id": 224190514,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Zaky Tariq Marwan Nabil",
+        "gender": "male",
+        "id": 224190533,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Abeer Yasmine Kholoud Hend",
+        "gender": "female",
+        "id": 224190734,
+        "program": "COMPUTER SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Dina Layla Sarah Yasmine",
+        "gender": "female",
+        "id": 224190775,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Imane Dina Raya Shadia",
+        "gender": "female",
+        "id": 224190807,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Jihan Amina Amira Tahani",
+        "gender": "female",
+        "id": 224190862,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Siham Khalida Ghada Rania",
+        "gender": "female",
+        "id": 224190947,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Hamdy Saber Mansour Rashad",
+        "gender": "male",
+        "id": 224190953,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Mahmoud Khaled Badr Sayed",
+        "gender": "male",
+        "id": 224190972,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Sanaa Sarah Reham Amal",
+        "gender": "female",
+        "id": 224191161,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 4
+    },
+    {
+        "name": "Sahar Dina Layla Basma",
+        "gender": "female",
+        "id": 224191212,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Ghada Zeynab Sahar Sonia",
+        "gender": "female",
+        "id": 224191371,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Ghada Zeynab Sahar Sonia",
+        "gender": "female",
+        "id": 224191371,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Mansour Zaki Maged Abdallah",
+        "gender": "male",
+        "id": 224191390,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Zainab Jihan Tahani Mona",
+        "gender": "female",
+        "id": 224191618,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Omar Ramy Tawfiq Ramy",
+        "gender": "male",
+        "id": 224191824,
+        "program": "COMPUTER SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Nina Fayza Zaynab Zeina",
+        "gender": "female",
+        "id": 224191958,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Rashid Mohsen Khalil Marwan",
+        "gender": "male",
+        "id": 224192163,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 2
+    },
+    {
+        "name": "Abdelaziz Ziad Badr Sherif",
+        "gender": "male",
+        "id": 224192164,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Zayna Samah Sohair Samah",
+        "gender": "female",
+        "id": 224192346,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Omar Mohammad Rami Essam",
+        "gender": "male",
+        "id": 224192365,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Emad Fathi Fady Badr",
+        "gender": "male",
+        "id": 224192643,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Samir Ramy Salah Mohammad",
+        "gender": "male",
+        "id": 224192649,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Samir Ehab Rashad Abdelaziz",
+        "gender": "male",
+        "id": 224192744,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Mounir Gaber Abdelrahman Marwan",
+        "gender": "male",
+        "id": 224192896,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Samy Ehab Zakaria Mohsen",
+        "gender": "male",
+        "id": 224192966,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Samy Abdelrahman Abdelaziz Mohsen",
+        "gender": "male",
+        "id": 224193118,
+        "program": "COMPUTER SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Amal Lina Sonia Zayna",
+        "gender": "female",
+        "id": 224193143,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 1
+    },
+    {
+        "name": "Kamal Maged Ahmed Ayman",
+        "gender": "male",
+        "id": 224193186,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Rashid Mohamed Mohsen Zakaria",
+        "gender": "male",
+        "id": 224193709,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Dalal Fatma Sawsan Sana",
+        "gender": "female",
+        "id": 224193771,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Wafa Maha Amira Dalal",
+        "gender": "female",
+        "id": 224193941,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Kholoud Reem Raya Rasha",
+        "gender": "female",
+        "id": 224193964,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 4
+    },
+    {
+        "name": "Rashid Moustafa Zaky Saber",
+        "gender": "male",
+        "id": 224194418,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Ghada Sumaya Rina Aya",
+        "gender": "female",
+        "id": 224194899,
+        "program": "COMPUTER SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Faten Souad Yasmine Samah",
+        "gender": "female",
+        "id": 224195549,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 4
+    },
+    {
+        "name": "Kholoud Jihan Ghada Karima",
+        "gender": "female",
+        "id": 224195723,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Sayed Gaber Gamal Ziad",
+        "gender": "male",
+        "id": 224195852,
+        "program": "COMPUTER SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Kareem Abdallah Ayman Bashir",
+        "gender": "male",
+        "id": 224195941,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Sumaia Marwa Anwar Miriam",
+        "gender": "female",
+        "id": 224196021,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 3
+    },
+    {
+        "name": "Abdallah Mohammad Mouhamad Salah",
+        "gender": "male",
+        "id": 224196125,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Mona Yasmine Lina Nada",
+        "gender": "female",
+        "id": 224196322,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Nasser Ayman Ahmed Ashraf",
+        "gender": "male",
+        "id": 224196602,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Sahar Samah Sohair Wafa",
+        "gender": "female",
+        "id": 224196916,
+        "program": "COMPUTER SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Faris Rashid Saber Fawzi",
+        "gender": "male",
+        "id": 224197038,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 2
+    },
+    {
+        "name": "Shereen Laila Aya Hend",
+        "gender": "female",
+        "id": 224197263,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Ramy Zaky Sherif Abdelrahman",
+        "gender": "male",
+        "id": 224197643,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Karima Souad Sonia Shereen",
+        "gender": "female",
+        "id": 224197699,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Reem Rami Shams Hala",
+        "gender": "female",
+        "id": 224197713,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Kamal Gamal Zaky Rashad",
+        "gender": "male",
+        "id": 224197734,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Maher Ibrahim Hassan Rashad",
+        "gender": "male",
+        "id": 224198059,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Shady Ayman Nasser Samy",
+        "gender": "male",
+        "id": 224198083,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 5
+    },
+    {
+        "name": "Emad Ibrahim Tawfiq Hany",
+        "gender": "male",
+        "id": 224198211,
+        "program": "COMPUTER SCIENCE",
+        "level": 3
+    },
+    {
+        "name": "Sonia Abeer Zeina Jihan",
+        "gender": "female",
+        "id": 224198307,
+        "program": "COMPUTER SCIENCE",
+        "level": 1
+    },
+    {
+        "name": "Taha Ibrahim Shady Mounir",
+        "gender": "male",
+        "id": 224198366,
+        "program": "COMPUTER ENGINEERING",
+        "level": 4
+    },
+    {
+        "name": "Mouhamad Riad Sayed Mohamed",
+        "gender": "male",
+        "id": 224198789,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 4
+    },
+    {
+        "name": "Samy Fouad Nabil Zakaria",
+        "gender": "male",
+        "id": 224198861,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Fady Bashir Ashraf Rashid",
+        "gender": "male",
+        "id": 224198993,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Siham Reem Amal Nour",
+        "gender": "female",
+        "id": 224199009,
+        "program": "COMPUTER ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Mansour Fawzy Mounir Emad",
+        "gender": "male",
+        "id": 224199094,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 1
+    },
+    {
+        "name": "Hossam Nabil Taha Maged",
+        "gender": "male",
+        "id": 224199108,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Anwar Reem Rania Khadija",
+        "gender": "female",
+        "id": 224199214,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Zaky Mohammad Fady Hany",
+        "gender": "male",
+        "id": 224199336,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 5
+    },
+    {
+        "name": "Rasha Nour Amal Fatma",
+        "gender": "female",
+        "id": 224199384,
+        "program": "BIOMEDICAL INFORMATICS",
+        "level": 2
+    },
+    {
+        "name": "Fatma Zayna Eman Basma",
+        "gender": "female",
+        "id": 224199532,
+        "program": "ARTIFICIAL INTELLIGENCE ENGINEERING",
+        "level": 2
+    },
+    {
+        "name": "Shereen Sumaya Khalida Heba",
+        "gender": "female",
+        "id": 224199803,
+        "program": "COMPUTER ENGINEERING",
+        "level": 3
+    },
+    {
+        "name": "Iman Shams Miriam Amal",
+        "gender": "female",
+        "id": 224199946,
+        "program": "COMPUTER ENGINEERING",
+        "level": 5
+    },
+    {
+        "name": "Samir Ahmed Fouad Farouk",
+        "gender": "male",
+        "id": 224199972,
+        "program": "ARTIFICIAL INTELLIGENCE SCIENCE",
+        "level": 1
+    }
+]
