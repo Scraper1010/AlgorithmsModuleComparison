@@ -9,7 +9,7 @@ with open(os.path.join(dir, 'SP_S.json'), 'r') as f:
     student_profiles = json.load(f)
 student_ids = [profile['id'] for profile in student_profiles]
 
-algo = Algorithms()
+
 
 
 app=FastAPI()
