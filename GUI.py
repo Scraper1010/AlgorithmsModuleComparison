@@ -38,7 +38,7 @@ class SyntaxHighlighter(QSyntaxHighlighter):
             (algo_format, "Results:"),
             (error_format, "Error:.*"),
             (success_format, "Found value.*"),
-            (algo_name_format, "LinearSearch|BinarySearch|InterpolationSearch|JumpSearch|BubbleSort|InsertionSort|QuickSort|SelectionSort")
+            (algo_name_format, "LinearSearch|BinarySearch|InterpolationSearch|JumpSearch|BubbleSort|InsertionSort|QuickSort|SelectionSort|ExponentialSearch")
         ]
 
     def highlightBlock(self, text):
@@ -338,6 +338,7 @@ class MainWindow(QMainWindow):
         self.output_text.setPlaceholderText("Results will appear here...")
 
     def start_comparison(self):
+        # self.output_text.append(f" Our Repo: https://github.com/Scraper1010/AlgorithmsModuleComparison.git")
         if not self.current_list:
             self.output_text.append("Error: Please create a list first using 'Sorted List' or 'Random List' button")
             return
@@ -403,6 +404,7 @@ class MainWindow(QMainWindow):
                 self.output_text.append(f"Result: {result}")
         except Exception as e:
             self.output_text.append(f"\n{algorithm_name} Error: {str(e)}")
+
 
 def main():
     app = QApplication(sys.argv)
