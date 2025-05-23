@@ -135,7 +135,3 @@ The module includes custom error handling for common scenarios:
 ## Contributing
 
 Feel free to submit issues and enhancement requests!
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
