@@ -26,7 +26,7 @@ A comprehensive Python module that implements various search and sorting algorit
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/AlgorithmsModuleComparison.git
+git clone https://github.com/Scraper1010/AlgorithmsModuleComparison.git
 cd AlgorithmsModuleComparison
 ```
 
